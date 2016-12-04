@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3870ECFA1DF3E9C5000A239A /* OhWordApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3870ECF91DF3E9C5000A239A /* OhWordApiClient.swift */; };
+		3870ED161DF3F53E000A239A /* SelectSongController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3870ED151DF3F53E000A239A /* SelectSongController.swift */; };
 		38CD19D61DF3740700257E4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CD19D51DF3740700257E4D /* AppDelegate.swift */; };
 		38CD19D81DF3740700257E4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CD19D71DF3740700257E4D /* ViewController.swift */; };
 		38CD19DB1DF3740700257E4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38CD19D91DF3740700257E4D /* Main.storyboard */; };
@@ -36,6 +38,8 @@
 
 /* Begin PBXFileReference section */
 		2DBD3915D03E73962202D9A2 /* Pods_ohWordGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ohWordGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3870ECF91DF3E9C5000A239A /* OhWordApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OhWordApiClient.swift; sourceTree = "<group>"; };
+		3870ED151DF3F53E000A239A /* SelectSongController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectSongController.swift; sourceTree = "<group>"; };
 		38CD19D21DF3740700257E4D /* ohWordGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ohWordGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38CD19D51DF3740700257E4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38CD19D71DF3740700257E4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3870ECF81DF3E9AA000A239A /* ApiClients */ = {
+			isa = PBXGroup;
+			children = (
+				3870ECF91DF3E9C5000A239A /* OhWordApiClient.swift */,
+			);
+			name = ApiClients;
+			sourceTree = "<group>";
+		};
+		3870ED141DF3F514000A239A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				38CD19D71DF3740700257E4D /* ViewController.swift */,
+				3870ED151DF3F53E000A239A /* SelectSongController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		38CD19C91DF3740700257E4D = {
 			isa = PBXGroup;
 			children = (
@@ -104,8 +125,9 @@
 		38CD19D41DF3740700257E4D /* ohWordGame */ = {
 			isa = PBXGroup;
 			children = (
+				3870ED141DF3F514000A239A /* ViewControllers */,
+				3870ECF81DF3E9AA000A239A /* ApiClients */,
 				38CD19D51DF3740700257E4D /* AppDelegate.swift */,
-				38CD19D71DF3740700257E4D /* ViewController.swift */,
 				38CD19D91DF3740700257E4D /* Main.storyboard */,
 				38CD19DC1DF3740700257E4D /* Assets.xcassets */,
 				38CD19DE1DF3740700257E4D /* LaunchScreen.storyboard */,
@@ -334,8 +356,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3870ED161DF3F53E000A239A /* SelectSongController.swift in Sources */,
 				38CD19D81DF3740700257E4D /* ViewController.swift in Sources */,
 				38CD19D61DF3740700257E4D /* AppDelegate.swift in Sources */,
+				3870ECFA1DF3E9C5000A239A /* OhWordApiClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,6 +604,7 @@
 				38CD19FC1DF3740800257E4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38CD19FD1DF3740800257E4D /* Build configuration list for PBXNativeTarget "ohWordGameTests" */ = {
 			isa = XCConfigurationList;
@@ -588,6 +613,7 @@
 				38CD19FF1DF3740800257E4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38CD1A001DF3740800257E4D /* Build configuration list for PBXNativeTarget "ohWordGameUITests" */ = {
 			isa = XCConfigurationList;
@@ -596,6 +622,7 @@
 				38CD1A021DF3740800257E4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
