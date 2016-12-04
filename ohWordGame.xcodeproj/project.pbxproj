@@ -16,6 +16,8 @@
 		38CD19E01DF3740700257E4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38CD19DE1DF3740700257E4D /* LaunchScreen.storyboard */; };
 		38CD19EB1DF3740800257E4D /* ohWordGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CD19EA1DF3740800257E4D /* ohWordGameTests.swift */; };
 		38CD19F61DF3740800257E4D /* ohWordGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CD19F51DF3740800257E4D /* ohWordGameUITests.swift */; };
+		60C7410407C30D65497389EB /* Pods_ohWordGameUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 754473E6FDF35C1910C85EE9 /* Pods_ohWordGameUITests.framework */; };
+		D3C08D99E936C9207AE8E64D /* Pods_ohWordGameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BFBEF61B3B153F048FB1DF /* Pods_ohWordGameTests.framework */; };
 		E76620A221BEE84E27E4D2FD /* Pods_ohWordGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DBD3915D03E73962202D9A2 /* Pods_ohWordGame.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,9 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09E5AE3314C6E42561BF2A2C /* Pods-ohWordGameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ohWordGameTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ohWordGameTests/Pods-ohWordGameTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2DBD3915D03E73962202D9A2 /* Pods_ohWordGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ohWordGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3870ECF91DF3E9C5000A239A /* OhWordApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OhWordApiClient.swift; sourceTree = "<group>"; };
 		3870ED151DF3F53E000A239A /* SelectSongController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectSongController.swift; sourceTree = "<group>"; };
+		3870ED171DF4BDB7000A239A /* APITEST.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = APITEST.playground; sourceTree = "<group>"; };
 		38CD19D21DF3740700257E4D /* ohWordGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ohWordGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38CD19D51DF3740700257E4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38CD19D71DF3740700257E4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,8 +57,13 @@
 		38CD19F11DF3740800257E4D /* ohWordGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ohWordGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38CD19F51DF3740800257E4D /* ohWordGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ohWordGameUITests.swift; sourceTree = "<group>"; };
 		38CD19F71DF3740800257E4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FD8B5AA0BDB67BDC874B674 /* Pods-ohWordGameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ohWordGameUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ohWordGameUITests/Pods-ohWordGameUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4D3F8937428992CFC9ECD847 /* Pods-ohWordGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ohWordGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-ohWordGame/Pods-ohWordGame.release.xcconfig"; sourceTree = "<group>"; };
+		567C117B44F9BE9F4163B6A3 /* Pods-ohWordGameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ohWordGameUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ohWordGameUITests/Pods-ohWordGameUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		74BFBEF61B3B153F048FB1DF /* Pods_ohWordGameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ohWordGameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		754473E6FDF35C1910C85EE9 /* Pods_ohWordGameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ohWordGameUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4286C2256BDA1F7192D1534 /* Pods-ohWordGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ohWordGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ohWordGame/Pods-ohWordGame.debug.xcconfig"; sourceTree = "<group>"; };
+		F7CB92CD3CC49ED298BCF2CB /* Pods-ohWordGameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ohWordGameTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ohWordGameTests/Pods-ohWordGameTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3C08D99E936C9207AE8E64D /* Pods_ohWordGameTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60C7410407C30D65497389EB /* Pods_ohWordGameUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +143,7 @@
 				38CD19DC1DF3740700257E4D /* Assets.xcassets */,
 				38CD19DE1DF3740700257E4D /* LaunchScreen.storyboard */,
 				38CD19E11DF3740700257E4D /* Info.plist */,
+				3870ED171DF4BDB7000A239A /* APITEST.playground */,
 			);
 			path = ohWordGame;
 			sourceTree = "<group>";
@@ -159,6 +171,10 @@
 			children = (
 				A4286C2256BDA1F7192D1534 /* Pods-ohWordGame.debug.xcconfig */,
 				4D3F8937428992CFC9ECD847 /* Pods-ohWordGame.release.xcconfig */,
+				09E5AE3314C6E42561BF2A2C /* Pods-ohWordGameTests.debug.xcconfig */,
+				F7CB92CD3CC49ED298BCF2CB /* Pods-ohWordGameTests.release.xcconfig */,
+				567C117B44F9BE9F4163B6A3 /* Pods-ohWordGameUITests.debug.xcconfig */,
+				3FD8B5AA0BDB67BDC874B674 /* Pods-ohWordGameUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -167,6 +183,8 @@
 			isa = PBXGroup;
 			children = (
 				2DBD3915D03E73962202D9A2 /* Pods_ohWordGame.framework */,
+				74BFBEF61B3B153F048FB1DF /* Pods_ohWordGameTests.framework */,
+				754473E6FDF35C1910C85EE9 /* Pods_ohWordGameUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -198,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38CD19FD1DF3740800257E4D /* Build configuration list for PBXNativeTarget "ohWordGameTests" */;
 			buildPhases = (
+				99B5D79EFC2027509A1B4E0E /* [CP] Check Pods Manifest.lock */,
 				38CD19E21DF3740700257E4D /* Sources */,
 				38CD19E31DF3740700257E4D /* Frameworks */,
 				38CD19E41DF3740700257E4D /* Resources */,
+				DE98CB1EA21A5B3CC987A510 /* [CP] Embed Pods Frameworks */,
+				C7A07B664EC824CFC5D7A42D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -216,9 +237,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38CD1A001DF3740800257E4D /* Build configuration list for PBXNativeTarget "ohWordGameUITests" */;
 			buildPhases = (
+				C06E06CD6E2CF4AE6A0E97C7 /* [CP] Check Pods Manifest.lock */,
 				38CD19ED1DF3740800257E4D /* Sources */,
 				38CD19EE1DF3740800257E4D /* Frameworks */,
 				38CD19EF1DF3740800257E4D /* Resources */,
+				F5E537E59ECD0E6F3B50FE8F /* [CP] Embed Pods Frameworks */,
+				51B503F23B03B1F0F6ADAF37 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -304,6 +328,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		51B503F23B03B1F0F6ADAF37 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ohWordGameUITests/Pods-ohWordGameUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		8D3CE793160A5A38384FF951 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -334,6 +373,51 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ohWordGame/Pods-ohWordGame-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		99B5D79EFC2027509A1B4E0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C06E06CD6E2CF4AE6A0E97C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C7A07B664EC824CFC5D7A42D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ohWordGameTests/Pods-ohWordGameTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D825A22235EFE9AB879638F0 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -347,6 +431,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ohWordGame/Pods-ohWordGame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE98CB1EA21A5B3CC987A510 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ohWordGameTests/Pods-ohWordGameTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5E537E59ECD0E6F3B50FE8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ohWordGameUITests/Pods-ohWordGameUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -432,6 +546,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -481,6 +596,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -509,6 +625,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A4286C2256BDA1F7192D1534 /* Pods-ohWordGame.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ohWordGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -522,6 +639,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4D3F8937428992CFC9ECD847 /* Pods-ohWordGame.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ohWordGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -533,6 +651,7 @@
 		};
 		38CD19FE1DF3740800257E4D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09E5AE3314C6E42561BF2A2C /* Pods-ohWordGameTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -547,6 +666,7 @@
 		};
 		38CD19FF1DF3740800257E4D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7CB92CD3CC49ED298BCF2CB /* Pods-ohWordGameTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -561,6 +681,7 @@
 		};
 		38CD1A011DF3740800257E4D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 567C117B44F9BE9F4163B6A3 /* Pods-ohWordGameUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ohWordGameUITests/Info.plist;
@@ -574,6 +695,7 @@
 		};
 		38CD1A021DF3740800257E4D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FD8B5AA0BDB67BDC874B674 /* Pods-ohWordGameUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ohWordGameUITests/Info.plist;

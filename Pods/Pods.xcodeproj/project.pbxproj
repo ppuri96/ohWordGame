@@ -11,25 +11,31 @@
 		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87882A1F5A92C8138D54545E51D51E6F /* Timeline.swift */; };
 		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B44A27EFBB0DA84D738057B77F3413B1 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01C037B4034EDA3D7955BC5E4E9D9D6 /* TaskDelegate.swift */; };
+		518DB27797C76426666CBC400BECD744 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E230A0448B394DE26E688DAC8E6201E /* Request.swift */; };
-		5A917037FA9AB2E510F04F92B0FC757D /* Pods-ohWordGame-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B551B308EF611662552230C798292754 /* Pods-ohWordGame-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		60E54E816D60BFC7AF4AE3C71AFFC055 /* Pods-ohWordGame-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9FECAEE3D344AF806AC8F25A25F8D7 /* Pods-ohWordGame-dummy.m */; };
+		5A917037FA9AB2E510F04F92B0FC757D /* Pods-ohWordGame-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7916CAC7FF2BF09A672F33C27D8428A /* Pods-ohWordGame-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60E54E816D60BFC7AF4AE3C71AFFC055 /* Pods-ohWordGame-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6C187374838B35876B30270D5CDE9E /* Pods-ohWordGame-dummy.m */; };
 		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCBF1EED873F61C6D46CE37FA5C39D3 /* DispatchQueue+Alamofire.swift */; };
 		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B030D27CAC730C5EB0F22390645310 /* ServerTrustPolicy.swift */; };
 		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195D73DD9EF275A3C56569E2B1CA8026 /* SessionDelegate.swift */; };
 		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D60BC9955B4F7FFA62D7440CB385C11 /* Result.swift */; };
+		7ED0DBA6CD4A5AFCB91C045A213ED366 /* Pods-ohWordGameTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2326946735996C7CCAE953CAEE451B2 /* Pods-ohWordGameTests-dummy.m */; };
+		876869CC144790B5B987B7DC79E0CB96 /* Pods-ohWordGameTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E2D02542660C0F049E1030917B1A751 /* Pods-ohWordGameTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF006B0AD5765D1BFA8253C2DCBB126 /* AFError.swift */; };
 		A04BFC558D69E7DBB68023C80A9CFE4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A18CB0FA17C8E356DCC88352CD9124CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A8AA5F9EDED0A0BDDE7E830BF4AEE0 /* NetworkReachabilityManager.swift */; };
 		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C1C119BCE81C53F76CAC2BE27C38E0 /* Alamofire-dummy.m */; };
 		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CDAC6C1187C5467E576980E1062C8B /* SessionManager.swift */; };
 		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155538D91ACEEEDF82069ACF6C1A02E7 /* MultipartFormData.swift */; };
 		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B029DBC43E49A740F12B5E4D2E6DD452 /* Validation.swift */; };
 		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6639346628280A0D0FAD35196BF56108 /* ParameterEncoding.swift */; };
+		C7028C15114DBF99805D0AAE636E45EF /* Pods-ohWordGameUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAD8544C32091FE9889F84881F52481 /* Pods-ohWordGameUITests-dummy.m */; };
 		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F47F5C9CDB035C5AFADEBA5BF44F1C /* Response.swift */; };
 		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A46F517F0AF7E85A16D723F6406896 /* Notifications.swift */; };
 		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F9510473F6FFD7AA66524DB16C2263 /* ResponseSerialization.swift */; };
 		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCB8C44DE758E906C0BCDA455937B85 /* Alamofire.swift */; };
+		FC136A3B9DA10ACBF9A982F6D6280DF0 /* Pods-ohWordGameUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E90D50FAFC43607677ED90EBC510BD41 /* Pods-ohWordGameUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,45 +50,75 @@
 
 /* Begin PBXFileReference section */
 		04F47F5C9CDB035C5AFADEBA5BF44F1C /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		0DF68738A25B85A384A58EA0DE4C5219 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FCBF1EED873F61C6D46CE37FA5C39D3 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		13A0A663B36A229C69D5274A83E93F88 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		155538D91ACEEEDF82069ACF6C1A02E7 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		195D73DD9EF275A3C56569E2B1CA8026 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
-		1C6D35D8DFBA7364AC63874FC62923AA /* Pods-ohWordGame.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ohWordGame.modulemap"; sourceTree = "<group>"; };
+		1CE388A97D442A6FC2E43CC49518977C /* Pods-ohWordGameTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ohWordGameTests.modulemap"; sourceTree = "<group>"; };
 		1E230A0448B394DE26E688DAC8E6201E /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		1F892B6514BF9FAD1B445738819E4729 /* Pods-ohWordGame-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ohWordGame-resources.sh"; sourceTree = "<group>"; };
 		22C1C119BCE81C53F76CAC2BE27C38E0 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		2A5EEBDCC797D593BBB267B9F8BA36CC /* Pods-ohWordGameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ohWordGameTests.debug.xcconfig"; sourceTree = "<group>"; };
 		32B030D27CAC730C5EB0F22390645310 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		3C6C187374838B35876B30270D5CDE9E /* Pods-ohWordGame-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ohWordGame-dummy.m"; sourceTree = "<group>"; };
 		3D60BC9955B4F7FFA62D7440CB385C11 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		43968B38A25D7A3C6BA8223A17B3AF76 /* Pods-ohWordGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ohWordGame.debug.xcconfig"; sourceTree = "<group>"; };
 		46CDAC6C1187C5467E576980E1062C8B /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
 		4AF006B0AD5765D1BFA8253C2DCBB126 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
-		5CF50896D47905D702B922725158B1DB /* Pods_ohWordGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ohWordGame.framework; path = "Pods-ohWordGame.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		504ABC992BAE624A87BA70571067607C /* Pods-ohWordGame-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ohWordGame-acknowledgements.plist"; sourceTree = "<group>"; };
+		51E05219FA60A89D34856DD62D06448E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		546064BDEE9ED4C19F2F50A1BA076F3D /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6639346628280A0D0FAD35196BF56108 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		66A46F517F0AF7E85A16D723F6406896 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
-		74C6B5CCD0249F22ED659CD5CA86A862 /* Pods-ohWordGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ohWordGame.release.xcconfig"; sourceTree = "<group>"; };
-		7BBEEDE702078B29BFBBC8CECA81A9EA /* Pods-ohWordGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ohWordGame.debug.xcconfig"; sourceTree = "<group>"; };
+		6EE0265E896986D99B404A05F8203317 /* Pods-ohWordGameUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ohWordGameUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7461B8B608533738C5DC85F0051EACC4 /* Pods-ohWordGameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ohWordGameUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		77C3174546B102107CA0CD91CDAE39C3 /* Pods-ohWordGameUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ohWordGameUITests.modulemap"; sourceTree = "<group>"; };
 		7D141D1953E5C6E67E362CE73090E48A /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		7DE89220990B2F39EF8A1402198D9E8D /* Pods-ohWordGameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ohWordGameTests.release.xcconfig"; sourceTree = "<group>"; };
 		87882A1F5A92C8138D54545E51D51E6F /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		96D0FE2C2D2F3697D39A865078F13D19 /* Pods-ohWordGame-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ohWordGame-frameworks.sh"; sourceTree = "<group>"; };
+		950A08277A7433CD3400C480141B094B /* Pods_ohWordGameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ohWordGameUITests.framework; path = "Pods-ohWordGameUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95ADA9D6326F1F5AE5E4A1A9AD9FF038 /* Pods-ohWordGameUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ohWordGameUITests-resources.sh"; sourceTree = "<group>"; };
+		9CE0AEC9B5EC1BEC192C18419E092CE3 /* Pods-ohWordGame.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ohWordGame.modulemap"; sourceTree = "<group>"; };
+		9E2D02542660C0F049E1030917B1A751 /* Pods-ohWordGameTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ohWordGameTests-umbrella.h"; sourceTree = "<group>"; };
 		A01C037B4034EDA3D7955BC5E4E9D9D6 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
-		A425B99176BB4A7E12916B9F8B1CC8CA /* Pods-ohWordGame-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ohWordGame-resources.sh"; sourceTree = "<group>"; };
+		AC979AB35D295AC2B3D4A861F0D1F3B2 /* Pods_ohWordGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ohWordGame.framework; path = "Pods-ohWordGame.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B029DBC43E49A740F12B5E4D2E6DD452 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		B05EA842A0FD70A3C2CE2721149EA0F5 /* Pods-ohWordGame-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ohWordGame-frameworks.sh"; sourceTree = "<group>"; };
 		B44A27EFBB0DA84D738057B77F3413B1 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		B551B308EF611662552230C798292754 /* Pods-ohWordGame-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ohWordGame-umbrella.h"; sourceTree = "<group>"; };
-		BAC5F18353264899AC22519369303D99 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B87E4DB9AD56D2CB1CB2E9820EBCFFBA /* Pods_ohWordGameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ohWordGameTests.framework; path = "Pods-ohWordGameTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA0567E35E14B7CCACE2657ADDAEDFE8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAAD8544C32091FE9889F84881F52481 /* Pods-ohWordGameUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ohWordGameUITests-dummy.m"; sourceTree = "<group>"; };
 		BCCA9CA7D9C1A2047BB93336C5708DFD /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		C98E4767AF0C7DF4AD530F3A00F377F1 /* Pods-ohWordGame-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ohWordGame-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BE8D0057A228549DC691CDE63A5796CD /* Pods-ohWordGameUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ohWordGameUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C168B1DF3C92D3231688A7EAD77DFC70 /* Pods-ohWordGameUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ohWordGameUITests-frameworks.sh"; sourceTree = "<group>"; };
+		C2326946735996C7CCAE953CAEE451B2 /* Pods-ohWordGameTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ohWordGameTests-dummy.m"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D8E43C159F79D0C6D941C2B6C9A0C32D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC7B16D23DD5A792E5A762B03617BA00 /* Pods-ohWordGame-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ohWordGame-acknowledgements.plist"; sourceTree = "<group>"; };
-		DE9FECAEE3D344AF806AC8F25A25F8D7 /* Pods-ohWordGame-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ohWordGame-dummy.m"; sourceTree = "<group>"; };
+		CD8307E4AFF8D6F6C50E14D01916F476 /* Pods-ohWordGame-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ohWordGame-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D7916CAC7FF2BF09A672F33C27D8428A /* Pods-ohWordGame-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ohWordGame-umbrella.h"; sourceTree = "<group>"; };
+		D907A8DF88F2693C7D5EF9B9F9E76107 /* Pods-ohWordGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ohWordGame.release.xcconfig"; sourceTree = "<group>"; };
+		DE48EF52C827141E9BE797EA88B0449B /* Pods-ohWordGameTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ohWordGameTests-frameworks.sh"; sourceTree = "<group>"; };
 		DFCB8C44DE758E906C0BCDA455937B85 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		DFCE93FD9B09C931172F1A339034DDB2 /* Pods-ohWordGameTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ohWordGameTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E2F9510473F6FFD7AA66524DB16C2263 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
 		E5A8AA5F9EDED0A0BDDE7E830BF4AEE0 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		E6F34CCF86067ED508C12C676E298C69 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		E80CA12ACCB6CF3FFC3581A0662EE514 /* Pods-ohWordGameTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ohWordGameTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E90D50FAFC43607677ED90EBC510BD41 /* Pods-ohWordGameUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ohWordGameUITests-umbrella.h"; sourceTree = "<group>"; };
+		F569FBCF862C2C2F828F6006AFE7F336 /* Pods-ohWordGameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ohWordGameUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FEE394A8E34790E1AF19B26312168EE6 /* Pods-ohWordGameTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ohWordGameTests-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		50FB907FFFC4E638DFBFBE38783D24ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				518DB27797C76426666CBC400BECD744 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		99195E4207764744AEC07ECCBCD550EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -99,9 +135,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D2A0B6C7CC870CD480C22C8252C25CFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A18CB0FA17C8E356DCC88352CD9124CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		032687D9362A874B4127D656B7B61D19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				546064BDEE9ED4C19F2F50A1BA076F3D /* Alamofire.framework */,
+				AC979AB35D295AC2B3D4A861F0D1F3B2 /* Pods_ohWordGame.framework */,
+				B87E4DB9AD56D2CB1CB2E9820EBCFFBA /* Pods_ohWordGameTests.framework */,
+				950A08277A7433CD3400C480141B094B /* Pods_ohWordGameUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EF0D26ED2F0C8FF674142233D9544E1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FCCCF8502F8C96A763A757E3F86AFC5 /* Pods-ohWordGame */,
+				A86C062DCEEA2776B7D20DE1FB0EA33D /* Pods-ohWordGameTests */,
+				70167A3976D46B06B22BC72B0BB7FEFB /* Pods-ohWordGameUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		200D10EB20F0397D47F022B50CF0433F /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +193,24 @@
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
+		2FCCCF8502F8C96A763A757E3F86AFC5 /* Pods-ohWordGame */ = {
+			isa = PBXGroup;
+			children = (
+				BA0567E35E14B7CCACE2657ADDAEDFE8 /* Info.plist */,
+				9CE0AEC9B5EC1BEC192C18419E092CE3 /* Pods-ohWordGame.modulemap */,
+				CD8307E4AFF8D6F6C50E14D01916F476 /* Pods-ohWordGame-acknowledgements.markdown */,
+				504ABC992BAE624A87BA70571067607C /* Pods-ohWordGame-acknowledgements.plist */,
+				3C6C187374838B35876B30270D5CDE9E /* Pods-ohWordGame-dummy.m */,
+				B05EA842A0FD70A3C2CE2721149EA0F5 /* Pods-ohWordGame-frameworks.sh */,
+				1F892B6514BF9FAD1B445738819E4729 /* Pods-ohWordGame-resources.sh */,
+				D7916CAC7FF2BF09A672F33C27D8428A /* Pods-ohWordGame-umbrella.h */,
+				43968B38A25D7A3C6BA8223A17B3AF76 /* Pods-ohWordGame.debug.xcconfig */,
+				D907A8DF88F2693C7D5EF9B9F9E76107 /* Pods-ohWordGame.release.xcconfig */,
+			);
+			name = "Pods-ohWordGame";
+			path = "Target Support Files/Pods-ohWordGame";
+			sourceTree = "<group>";
+		};
 		35F128EB69B6F7FB7DA93BBF6C130FAE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +233,24 @@
 			path = "../Target Support Files/Alamofire";
 			sourceTree = "<group>";
 		};
+		70167A3976D46B06B22BC72B0BB7FEFB /* Pods-ohWordGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0DF68738A25B85A384A58EA0DE4C5219 /* Info.plist */,
+				77C3174546B102107CA0CD91CDAE39C3 /* Pods-ohWordGameUITests.modulemap */,
+				BE8D0057A228549DC691CDE63A5796CD /* Pods-ohWordGameUITests-acknowledgements.markdown */,
+				6EE0265E896986D99B404A05F8203317 /* Pods-ohWordGameUITests-acknowledgements.plist */,
+				BAAD8544C32091FE9889F84881F52481 /* Pods-ohWordGameUITests-dummy.m */,
+				C168B1DF3C92D3231688A7EAD77DFC70 /* Pods-ohWordGameUITests-frameworks.sh */,
+				95ADA9D6326F1F5AE5E4A1A9AD9FF038 /* Pods-ohWordGameUITests-resources.sh */,
+				E90D50FAFC43607677ED90EBC510BD41 /* Pods-ohWordGameUITests-umbrella.h */,
+				7461B8B608533738C5DC85F0051EACC4 /* Pods-ohWordGameUITests.debug.xcconfig */,
+				F569FBCF862C2C2F828F6006AFE7F336 /* Pods-ohWordGameUITests.release.xcconfig */,
+			);
+			name = "Pods-ohWordGameUITests";
+			path = "Target Support Files/Pods-ohWordGameUITests";
+			sourceTree = "<group>";
+		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,26 +265,27 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				35F128EB69B6F7FB7DA93BBF6C130FAE /* Pods */,
-				8D6BCB4018D4E095F70F77A0DB11F5EC /* Products */,
-				99D248036B0829DA2315EC70597BDF74 /* Targets Support Files */,
+				032687D9362A874B4127D656B7B61D19 /* Products */,
+				1EF0D26ED2F0C8FF674142233D9544E1 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8D6BCB4018D4E095F70F77A0DB11F5EC /* Products */ = {
+		A86C062DCEEA2776B7D20DE1FB0EA33D /* Pods-ohWordGameTests */ = {
 			isa = PBXGroup;
 			children = (
-				BAC5F18353264899AC22519369303D99 /* Alamofire.framework */,
-				5CF50896D47905D702B922725158B1DB /* Pods_ohWordGame.framework */,
+				51E05219FA60A89D34856DD62D06448E /* Info.plist */,
+				1CE388A97D442A6FC2E43CC49518977C /* Pods-ohWordGameTests.modulemap */,
+				DFCE93FD9B09C931172F1A339034DDB2 /* Pods-ohWordGameTests-acknowledgements.markdown */,
+				E80CA12ACCB6CF3FFC3581A0662EE514 /* Pods-ohWordGameTests-acknowledgements.plist */,
+				C2326946735996C7CCAE953CAEE451B2 /* Pods-ohWordGameTests-dummy.m */,
+				DE48EF52C827141E9BE797EA88B0449B /* Pods-ohWordGameTests-frameworks.sh */,
+				FEE394A8E34790E1AF19B26312168EE6 /* Pods-ohWordGameTests-resources.sh */,
+				9E2D02542660C0F049E1030917B1A751 /* Pods-ohWordGameTests-umbrella.h */,
+				2A5EEBDCC797D593BBB267B9F8BA36CC /* Pods-ohWordGameTests.debug.xcconfig */,
+				7DE89220990B2F39EF8A1402198D9E8D /* Pods-ohWordGameTests.release.xcconfig */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		99D248036B0829DA2315EC70597BDF74 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EBBEA6E77E872BBD14F5EB22FF97510F /* Pods-ohWordGame */,
-			);
-			name = "Targets Support Files";
+			name = "Pods-ohWordGameTests";
+			path = "Target Support Files/Pods-ohWordGameTests";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -194,32 +296,30 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EBBEA6E77E872BBD14F5EB22FF97510F /* Pods-ohWordGame */ = {
-			isa = PBXGroup;
-			children = (
-				D8E43C159F79D0C6D941C2B6C9A0C32D /* Info.plist */,
-				1C6D35D8DFBA7364AC63874FC62923AA /* Pods-ohWordGame.modulemap */,
-				C98E4767AF0C7DF4AD530F3A00F377F1 /* Pods-ohWordGame-acknowledgements.markdown */,
-				DC7B16D23DD5A792E5A762B03617BA00 /* Pods-ohWordGame-acknowledgements.plist */,
-				DE9FECAEE3D344AF806AC8F25A25F8D7 /* Pods-ohWordGame-dummy.m */,
-				96D0FE2C2D2F3697D39A865078F13D19 /* Pods-ohWordGame-frameworks.sh */,
-				A425B99176BB4A7E12916B9F8B1CC8CA /* Pods-ohWordGame-resources.sh */,
-				B551B308EF611662552230C798292754 /* Pods-ohWordGame-umbrella.h */,
-				7BBEEDE702078B29BFBBC8CECA81A9EA /* Pods-ohWordGame.debug.xcconfig */,
-				74C6B5CCD0249F22ED659CD5CA86A862 /* Pods-ohWordGame.release.xcconfig */,
-			);
-			name = "Pods-ohWordGame";
-			path = "Target Support Files/Pods-ohWordGame";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		4E03B825FF902CB20966936C84D495B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876869CC144790B5B987B7DC79E0CB96 /* Pods-ohWordGameTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E61CF1E4AD9A9117115CAD8717284A1F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC136A3B9DA10ACBF9A982F6D6280DF0 /* Pods-ohWordGameUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +334,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		4C09D3B6FA86ACD2351C1E4A2E080672 /* Pods-ohWordGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CB7EA103056A04425A5CB66D7EF449A /* Build configuration list for PBXNativeTarget "Pods-ohWordGameUITests" */;
+			buildPhases = (
+				52AFDC29FEEDEB76ABCAFAAAC8512DEA /* Sources */,
+				D2A0B6C7CC870CD480C22C8252C25CFC /* Frameworks */,
+				E61CF1E4AD9A9117115CAD8717284A1F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ohWordGameUITests";
+			productName = "Pods-ohWordGameUITests";
+			productReference = 950A08277A7433CD3400C480141B094B /* Pods_ohWordGameUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */;
@@ -248,7 +365,7 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = BAC5F18353264899AC22519369303D99 /* Alamofire.framework */;
+			productReference = 546064BDEE9ED4C19F2F50A1BA076F3D /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E3A317B2B1F970671BEDAF321EACFD6E /* Pods-ohWordGame */ = {
@@ -266,7 +383,24 @@
 			);
 			name = "Pods-ohWordGame";
 			productName = "Pods-ohWordGame";
-			productReference = 5CF50896D47905D702B922725158B1DB /* Pods_ohWordGame.framework */;
+			productReference = AC979AB35D295AC2B3D4A861F0D1F3B2 /* Pods_ohWordGame.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E4CED6C76B3D50A3818361A9418929D2 /* Pods-ohWordGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C97F818C22EE1EFA236740CB9EBC6B2 /* Build configuration list for PBXNativeTarget "Pods-ohWordGameTests" */;
+			buildPhases = (
+				78FDAAF38BBE740C1021A2B457BF4962 /* Sources */,
+				50FB907FFFC4E638DFBFBE38783D24ED /* Frameworks */,
+				4E03B825FF902CB20966936C84D495B3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ohWordGameTests";
+			productName = "Pods-ohWordGameTests";
+			productReference = B87E4DB9AD56D2CB1CB2E9820EBCFFBA /* Pods_ohWordGameTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -286,12 +420,14 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 8D6BCB4018D4E095F70F77A0DB11F5EC /* Products */;
+			productRefGroup = 032687D9362A874B4127D656B7B61D19 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */,
 				E3A317B2B1F970671BEDAF321EACFD6E /* Pods-ohWordGame */,
+				E4CED6C76B3D50A3818361A9418929D2 /* Pods-ohWordGameTests */,
+				4C09D3B6FA86ACD2351C1E4A2E080672 /* Pods-ohWordGameUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -319,6 +455,22 @@
 				3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */,
 				10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */,
 				BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52AFDC29FEEDEB76ABCAFAAAC8512DEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7028C15114DBF99805D0AAE636E45EF /* Pods-ohWordGameUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78FDAAF38BBE740C1021A2B457BF4962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ED0DBA6CD4A5AFCB91C045A213ED366 /* Pods-ohWordGameTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,7 +526,148 @@
 			};
 			name = Release;
 		};
-		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
+		1467717333330D38AA9886FA099C1BEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A5EEBDCC797D593BBB267B9F8BA36CC /* Pods-ohWordGameTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ohWordGameTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ohWordGameTests/Pods-ohWordGameTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ohWordGameTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		201700743A921EB7C2F59F2809BFF48C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7461B8B608533738C5DC85F0051EACC4 /* Pods-ohWordGameUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ohWordGameUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ohWordGameUITests/Pods-ohWordGameUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ohWordGameUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2B16E9538479596AB803BF45B934DD3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DE89220990B2F39EF8A1402198D9E8D /* Pods-ohWordGameTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ohWordGameTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ohWordGameTests/Pods-ohWordGameTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ohWordGameTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4369845F35EB36B4B5A9FEE39C963B18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43968B38A25D7A3C6BA8223A17B3AF76 /* Pods-ohWordGame.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ohWordGame/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ohWordGame/Pods-ohWordGame.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ohWordGame;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -410,7 +703,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -418,45 +711,9 @@
 			};
 			name = Debug;
 		};
-		397D9D03BB164AA01040FA48BA82A561 /* Debug */ = {
+		A5317CF98DBB57BAC115A33E300E5C52 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BBEEDE702078B29BFBBC8CECA81A9EA /* Pods-ohWordGame.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ohWordGame/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ohWordGame/Pods-ohWordGame.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ohWordGame;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6840E489442F8E7406603ACE39E61B6D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74C6B5CCD0249F22ED659CD5CA86A862 /* Pods-ohWordGame.release.xcconfig */;
+			baseConfigurationReference = D907A8DF88F2693C7D5EF9B9F9E76107 /* Pods-ohWordGame.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -471,7 +728,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-ohWordGame/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ohWordGame/Pods-ohWordGame.modulemap";
@@ -489,7 +746,42 @@
 			};
 			name = Release;
 		};
-		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+		B406AAC3DB4FE406865AE3E277011727 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F569FBCF862C2C2F828F6006AFE7F336 /* Pods-ohWordGameUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ohWordGameUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ohWordGameUITests/Pods-ohWordGameUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ohWordGameUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -521,7 +813,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
@@ -568,8 +860,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
-				E72E7977875C2D251FC62736BBDDC389 /* Release */,
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -586,8 +878,26 @@
 		6112F2ED8B958DF5231DB16B17FC260B /* Build configuration list for PBXNativeTarget "Pods-ohWordGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				397D9D03BB164AA01040FA48BA82A561 /* Debug */,
-				6840E489442F8E7406603ACE39E61B6D /* Release */,
+				4369845F35EB36B4B5A9FEE39C963B18 /* Debug */,
+				A5317CF98DBB57BAC115A33E300E5C52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C97F818C22EE1EFA236740CB9EBC6B2 /* Build configuration list for PBXNativeTarget "Pods-ohWordGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1467717333330D38AA9886FA099C1BEF /* Debug */,
+				2B16E9538479596AB803BF45B934DD3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CB7EA103056A04425A5CB66D7EF449A /* Build configuration list for PBXNativeTarget "Pods-ohWordGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				201700743A921EB7C2F59F2809BFF48C /* Debug */,
+				B406AAC3DB4FE406865AE3E277011727 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
