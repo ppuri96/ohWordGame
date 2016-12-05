@@ -7,6 +7,7 @@ target 'ohWordGame' do
 
   # Pods for ohWordGame
   pod 'Alamofire', '~> 4.0'
+  pod 'SwiftyJSON'
 
    target 'ohWordGameTests' do
      inherit! :search_paths

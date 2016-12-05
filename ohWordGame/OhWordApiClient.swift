@@ -11,29 +11,24 @@ import Alamofire
 
 class OhWordApiClient {
     
-//    static func createNewUser(_ ) {
-//        //POST request to api
-//        //response is the user_id and auth_token
-//        
-//    }
-    
     static func createNewGame(auth_token: String, songId: String) -> String {
-        
-        let url = URL(string: "https://github.com/Alamofire/Alamofire.git")
-        let request = NSMutableURLRequest(url: url!)
-        request.httpMethod = "GET"
-        return "hi"
+        //TODO: finish this function
+        return "foo"
     }
     
-    
-    static func testApi(auth_token: String) {
-        let headers: HTTPHeaders = ["Authorization": auth_token]
+    static func getWordsForSong(song_id: String) {
         
-        Alamofire.request("http://api.ohwordapp.com/songs.json"
+        let params: Parameters = [song_id : song_id]
+        let headers: HTTPHeaders = ["Authorization": "Token badee2f295c0d9b340d21ced7a21ef85"]
+        
+        Alamofire.request("http://api.ohwordapp.com/songs/" + song_id, parameters: params, headers: headers).responseJSON { response in
+            
+            if let JSON = response.result.value {
+                print("JSON: \(JSON)")
+            }
+        }
         
     }
-    
-    
    
     
 }
