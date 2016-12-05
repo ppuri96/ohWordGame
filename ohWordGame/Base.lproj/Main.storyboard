@@ -117,10 +117,10 @@
             </objects>
             <point key="canvasLocation" x="945" y="139"/>
         </scene>
-        <!--View Controller-->
+        <!--Enter Word Controller-->
         <scene sceneID="1PM-WR-u8k">
             <objects>
-                <viewController id="KGK-Nh-CS3" sceneMemberID="viewController">
+                <viewController id="KGK-Nh-CS3" customClass="EnterWordController" customModule="ohWordGame" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0j5-jo-Gi3"/>
                         <viewControllerLayoutGuide type="bottom" id="ChW-2R-zlD"/>
@@ -157,6 +157,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="wordDescription" destination="veM-a7-whe" id="cAV-H7-UWw"/>
+                        <outlet property="wordText" destination="FIq-5d-URq" id="av7-al-vZz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kw5-eg-pJF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

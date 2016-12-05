@@ -10,6 +10,7 @@
 		3870ECFA1DF3E9C5000A239A /* OhWordApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3870ECF91DF3E9C5000A239A /* OhWordApiClient.swift */; };
 		3870ED161DF3F53E000A239A /* SelectSongController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3870ED151DF3F53E000A239A /* SelectSongController.swift */; };
 		387E9C1F1DF53E6C00B7117A /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387E9C1E1DF53E6C00B7117A /* Word.swift */; };
+		387E9C211DF540A100B7117A /* EnterWordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387E9C201DF540A100B7117A /* EnterWordController.swift */; };
 		38CD19D61DF3740700257E4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CD19D51DF3740700257E4D /* AppDelegate.swift */; };
 		38CD19D81DF3740700257E4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CD19D71DF3740700257E4D /* ViewController.swift */; };
 		38CD19DB1DF3740700257E4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38CD19D91DF3740700257E4D /* Main.storyboard */; };
@@ -46,6 +47,7 @@
 		3870ED151DF3F53E000A239A /* SelectSongController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectSongController.swift; sourceTree = "<group>"; };
 		3870ED171DF4BDB7000A239A /* APITEST.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = APITEST.playground; sourceTree = "<group>"; };
 		387E9C1E1DF53E6C00B7117A /* Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		387E9C201DF540A100B7117A /* EnterWordController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterWordController.swift; sourceTree = "<group>"; };
 		38CD19D21DF3740700257E4D /* ohWordGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ohWordGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38CD19D51DF3740700257E4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38CD19D71DF3740700257E4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 			children = (
 				38CD19D71DF3740700257E4D /* ViewController.swift */,
 				3870ED151DF3F53E000A239A /* SelectSongController.swift */,
+				387E9C201DF540A100B7117A /* EnterWordController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -483,6 +486,7 @@
 			files = (
 				3870ED161DF3F53E000A239A /* SelectSongController.swift in Sources */,
 				38CD19D81DF3740700257E4D /* ViewController.swift in Sources */,
+				387E9C211DF540A100B7117A /* EnterWordController.swift in Sources */,
 				387E9C1F1DF53E6C00B7117A /* Word.swift in Sources */,
 				38CD19D61DF3740700257E4D /* AppDelegate.swift in Sources */,
 				3870ECFA1DF3E9C5000A239A /* OhWordApiClient.swift in Sources */,
