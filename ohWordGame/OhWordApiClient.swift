@@ -8,6 +8,7 @@
 
 import Foundation
 import Alamofire
+import SwiftyJSON
 
 class OhWordApiClient {
     
@@ -18,14 +19,17 @@ class OhWordApiClient {
     
     static func getWordsForSong(song_id: String) {
         
-        let params: Parameters = [song_id : song_id]
+        let params: Parameters = ["word[song_id]" : song_id]
         let headers: HTTPHeaders = ["Authorization": "Token badee2f295c0d9b340d21ced7a21ef85"]
         
-        Alamofire.request("http://api.ohwordapp.com/songs/" + song_id, parameters: params, headers: headers).responseJSON { response in
+        Alamofire.request("http://api.ohwordapp.com/wordsforsong", parameters: params, headers: headers).responseJSON { response in
             
-            if let JSON = response.result.value {
-                print("JSON: \(JSON)")
+            let swiftyReturn = JSON(response.result.value!)
+            
+            for word in swiftyReturn {
+                
             }
+            
         }
         
     }
