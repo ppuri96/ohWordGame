@@ -26,7 +26,7 @@ class OhWordApiClient {
      - returns: 
         JSON data object to be handled by parser
     */
-    static func getWordsForSong(_ completion: @escaping (DefaultDataResponse?) -> Void, song_id: String) {
+    func getWordsForSong(_ completion: @escaping (DefaultDataResponse?) -> Void, song_id: String) {
         let params: Parameters = ["word[song_id]" : song_id]
         let headers: HTTPHeaders = ["Authorization": "Token badee2f295c0d9b340d21ced7a21ef85"]
         
@@ -39,6 +39,80 @@ class OhWordApiClient {
             completion(response)
         }
     }
+    
+    func postGameWord(_ completion: @escaping (DefaultDataResponse?) -> Void, word_id: String, game_id: String, text: String) {
+        let params: Parameters = [
+            "game_word[word_id]" : word_id,
+            "game_word[game_id]" : game_id,
+            "game_word[text]" : text
+        ]
+        let headers: HTTPHeaders = ["Authorization": "Token badee2f295c0d9b340d21ced7a21ef85"]
+        
+        Alamofire.request("http://api.ohwordapp.com/game_words", parameters: params, headers: headers).response { response in
+            if let error = response.error {
+                print("Error getting words: \(error)")
+                completion(response)
+                return
+            }
+            completion(response)
+        }
+    }
+    
+    func postNewGame(_ completion: @escaping (DefaultDataResponse?) -> Void, song_id: String, user_id: String) {
+        let params: Parameters = [
+            "game[song_id]" : song_id,
+            "game[user_id]" : user_id
+        ]
+        
+        let headers: HTTPHeaders = ["Authorization": "Token badee2f295c0d9b340d21ced7a21ef85"]
+        
+        Alamofire.request("http://localhost:3000/games", method: .post, parameters: params, headers: headers).response { response in
+            if let error = response.error {
+                print("Error Creating: \(error)")
+                completion(response)
+                return
+            }
+            completion(response)
+        }
+    }
+
+    func register(_ completion: @escaping (DefaultDataResponse?) -> Void, username: String, password: String, password_confirmation: String) {
+        let params: Parameters = [
+            "user[username]" : username,
+            "game_word[password]" : password,
+            "game_word[password_confirmation]" : password_confirmation
+        ]
+        
+        Alamofire.request("http://localhost:3000/users", method: .post, parameters: params).response { response in
+            if let error = response.error {
+                print("Error Creating: \(error)")
+                completion(response)
+                return
+            }
+            completion(response)
+        }
+    }
+    
+    func login(_ completion: @escaping (DefaultDataResponse?) -> Void, username: String, password: String, password_confirmation: String) {
+        let params: Parameters = [
+            "user[username]" : username,
+            "game_word[password]" : password,
+            "game_word[password_confirmation]" : password_confirmation
+        ]
+        
+        Alamofire.request("http://localhost:3000/login", method: .post, parameters: params).response { response in
+            if let error = response.error {
+                print("Error Creating: \(error)")
+                completion(response)
+                return
+            }
+            completion(response)
+        }
+    }
+    
+    
+    
+    
    
     
 }
