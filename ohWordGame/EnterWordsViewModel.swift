@@ -10,6 +10,11 @@ import Foundation
 
 class EnterWordsViewModel {
     
+    var words = [Word]()
+    
+    let client = OhWordApiClient()
+    let parser = ApiParser()
+    
     
     
 }

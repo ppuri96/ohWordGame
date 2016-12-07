@@ -10,11 +10,13 @@ import Foundation
 
 struct Word {
     
+    var id: Int
     var description: String
     var index: Int
     var text: String?
     
-    init (index: Int, description: String) {
+    init (id: Int, index: Int, description: String) {
+        self.id = id
         self.index = index
         self.description = description
     }

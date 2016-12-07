@@ -7,15 +7,25 @@
 //
 
 import Foundation
+import Alamofire
 import SwiftyJSON
 
 class ApiParser {
-    func parseWords(_ result: Result<Any>) {
-        do {
-            if let result = result,
-            let json = try JSON(result.value!)
-        } catch {
-            print("Could no parse JSON")
+    
+    func wordsFromApiResponse(response: DataResponse<Any>) -> [Word] {
+        var words = [Word]()
+        let swiftyReturn = JSON(response.result.value!)
+        
+        for word in swiftyReturn {
+            let id          = word.1["id"]
+            let index       = word.1["index"]
+            let description = word.1["description"]
+            
+            let tempWord: Word = Word(id: id.int!, index: index.int!, description: description.string!)
+            words.append(tempWord)
         }
+        return words
     }
+    
+    
 }
