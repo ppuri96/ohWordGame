@@ -15,6 +15,14 @@ class EnterWordsViewModel {
     let client = OhWordApiClient()
     let parser = ApiParser()
     
+    func loadWordsFromApi() {
+        client.getWordsForSong { [unowned self] response in
+            if let wordList = self.parser.wordsFromApiResponse(response) {
+                self.words = wordList
+            }
+        }
+    }
+    
     
     
 }

@@ -26,7 +26,7 @@ class OhWordApiClient {
      - returns: 
         JSON data object to be handled by parser
     */
-    static func getWordsForSong(_ completion: @escaping (DefaultDataResponse?) -> Void, song_id: String) {
+    func getWordsForSong(song_id: String, _ completion: @escaping (DefaultDataResponse?) -> Void) {
         let params: Parameters = ["word[song_id]" : song_id]
         let headers: HTTPHeaders = ["Authorization": "Token badee2f295c0d9b340d21ced7a21ef85"]
         
