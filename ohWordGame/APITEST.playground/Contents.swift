@@ -34,7 +34,14 @@ Alamofire.request("http://api.ohwordapp.com/wordsforsong", parameters: params, h
     print(swiftyReturn)
     
     for word in swiftyReturn {
-        print(word.1["description"])
+        
+        let id          = word.1["id"]
+        let index       = word.1["index"]
+        let description = word.1["description"]
+        
+        let testid = id.int!
+        
+        print(word.1["index"])
     }
 }
 

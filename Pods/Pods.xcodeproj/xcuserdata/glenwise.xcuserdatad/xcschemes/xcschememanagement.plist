@@ -6,27 +6,37 @@
 	<dict>
 		<key>Alamofire.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods-ohWordGame.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods-ohWordGameTests.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods-ohWordGameUITests.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>4</integer>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftyJSON.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>2882D25DDBC108F28889A73B350AA8AA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>4C09D3B6FA86ACD2351C1E4A2E080672</key>
 		<dict>
 			<key>primary</key>
@@ -37,7 +47,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E3A317B2B1F970671BEDAF321EACFD6E</key>
+		<key>DF75B69DB7183711AA315521C05E0738</key>
 		<dict>
 			<key>primary</key>
 			<true/>

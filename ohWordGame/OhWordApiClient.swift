@@ -17,21 +17,27 @@ class OhWordApiClient {
         return "foo"
     }
     
-    static func getWordsForSong(song_id: String) {
-        
+    /**
+     Return all of the words for a particular song
+     
+     - parameters: 
+        - song_id: the ID for which we wish to retrieve words
+     
+     - returns: 
+        JSON data object to be handled by parser
+    */
+    static func getWordsForSong(_ completion: @escaping (DefaultDataResponse?) -> Void, song_id: String) {
         let params: Parameters = ["word[song_id]" : song_id]
         let headers: HTTPHeaders = ["Authorization": "Token badee2f295c0d9b340d21ced7a21ef85"]
         
-        Alamofire.request("http://api.ohwordapp.com/wordsforsong", parameters: params, headers: headers).responseJSON { response in
-            
-            let swiftyReturn = JSON(response.result.value!)
-            
-            for word in swiftyReturn {
-                
+        Alamofire.request("http://api.ohwordapp.com/wordsforsong", parameters: params, headers: headers).response { response in
+            if let error = response.error {
+                print("Error getting words: \(error)")
+                completion(response)
+                return
             }
-            
+            completion(response)
         }
-        
     }
    
     
