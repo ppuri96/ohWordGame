@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		384820B21DF7BB6A00284B03 /* EnterWordsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384820B11DF7BB6A00284B03 /* EnterWordsViewModel.swift */; };
 		3870ECFA1DF3E9C5000A239A /* OhWordApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3870ECF91DF3E9C5000A239A /* OhWordApiClient.swift */; };
 		3870ED161DF3F53E000A239A /* SelectSongController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3870ED151DF3F53E000A239A /* SelectSongController.swift */; };
 		387E9C1F1DF53E6C00B7117A /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387E9C1E1DF53E6C00B7117A /* Word.swift */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		09E5AE3314C6E42561BF2A2C /* Pods-ohWordGameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ohWordGameTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ohWordGameTests/Pods-ohWordGameTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2DBD3915D03E73962202D9A2 /* Pods_ohWordGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ohWordGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		384820B11DF7BB6A00284B03 /* EnterWordsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterWordsViewModel.swift; sourceTree = "<group>"; };
 		3870ECF91DF3E9C5000A239A /* OhWordApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OhWordApiClient.swift; sourceTree = "<group>"; };
 		3870ED151DF3F53E000A239A /* SelectSongController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectSongController.swift; sourceTree = "<group>"; };
 		3870ED171DF4BDB7000A239A /* APITEST.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = APITEST.playground; sourceTree = "<group>"; };
@@ -98,12 +100,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3870ECF81DF3E9AA000A239A /* ApiClients */ = {
+		3870ECF81DF3E9AA000A239A /* ApiClientsParsers */ = {
 			isa = PBXGroup;
 			children = (
 				3870ECF91DF3E9C5000A239A /* OhWordApiClient.swift */,
 			);
-			name = ApiClients;
+			name = ApiClientsParsers;
 			sourceTree = "<group>";
 		};
 		3870ED141DF3F514000A239A /* ViewControllers */ = {
@@ -120,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				387E9C1E1DF53E6C00B7117A /* Word.swift */,
+				384820B11DF7BB6A00284B03 /* EnterWordsViewModel.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -151,7 +154,7 @@
 			children = (
 				387E9C1D1DF53E5F00B7117A /* Models */,
 				3870ED141DF3F514000A239A /* ViewControllers */,
-				3870ECF81DF3E9AA000A239A /* ApiClients */,
+				3870ECF81DF3E9AA000A239A /* ApiClientsParsers */,
 				38CD19D51DF3740700257E4D /* AppDelegate.swift */,
 				38CD19D91DF3740700257E4D /* Main.storyboard */,
 				38CD19DC1DF3740700257E4D /* Assets.xcassets */,
@@ -486,6 +489,7 @@
 			files = (
 				3870ED161DF3F53E000A239A /* SelectSongController.swift in Sources */,
 				38CD19D81DF3740700257E4D /* ViewController.swift in Sources */,
+				384820B21DF7BB6A00284B03 /* EnterWordsViewModel.swift in Sources */,
 				387E9C211DF540A100B7117A /* EnterWordController.swift in Sources */,
 				387E9C1F1DF53E6C00B7117A /* Word.swift in Sources */,
 				38CD19D61DF3740700257E4D /* AppDelegate.swift in Sources */,

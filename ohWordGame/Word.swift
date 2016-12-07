@@ -19,7 +19,7 @@ struct Word {
         self.description = description
     }
     
-    func setText(text: String) {
+    mutating func setText(text: String) {
         self.text = text
     }
     
