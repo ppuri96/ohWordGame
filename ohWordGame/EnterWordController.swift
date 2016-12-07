@@ -12,11 +12,21 @@ class EnterWordController: UIViewController {
     
     @IBOutlet weak var wordDescription: UILabel!
     @IBOutlet weak var wordText: UITextField! 
-
+    
+    var words     = [Word]()
+    let viewModel = EnterWordsViewModel()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        viewModel.loadWordsFromApi({ [unowned self] response in
+            DispatchQueue.main.async {
+                self.words = response
+            }
+        })
+        self.words = viewModel.words
+        wordDescription.text = words[0].description
     }
 
     override func didReceiveMemoryWarning() {
