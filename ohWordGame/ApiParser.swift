@@ -12,9 +12,14 @@ import SwiftyJSON
 
 class ApiParser {
     
-    func wordsFromApiResponse(response: DataResponse<Any>) -> [Word] {
+    func wordsFromApiResponse(response: Data?) -> [Word]? {
         var words = [Word]()
-        let swiftyReturn = JSON(response.result.value!)
+        let swiftyReturn = JSON(data: response!)
+        
+        //        print("this is: \(response)")
+        //
+        //        let otherReturn = try? JSONSerialization.jsonObject(with: response!, options: [])
+        //        print(otherReturn)
         
         for word in swiftyReturn {
             let id          = word.1["id"]
@@ -26,6 +31,5 @@ class ApiParser {
         }
         return words
     }
-    
     
 }
