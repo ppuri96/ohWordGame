@@ -13,17 +13,19 @@ class EnterWordController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var wordDescription: UILabel!
     @IBOutlet weak var wordText: UITextField!
     @IBOutlet weak var nextButton: UIButton!
+    @IBOutlet weak var resultsButton: UIButton!
     
     let viewModel = EnterWordsViewModel()
     
     @IBAction func nextWord(_ sender: UIButton) {
-        if viewModel.curWordIndex == viewModel.words.count - 1 {
-            sender.setTitle("Finish", for: .normal)
-            // TODO: navigate to next scene
+        if viewModel.curWordIndex < viewModel.words.count {
+            saveWord()
+            displayDescription()
+            clearTextField()
         }
-        saveWord()
-        displayDescription()
-        clearTextField()
+        if viewModel.curWordIndex == viewModel.words.count {
+            resultsButton.isHidden = false
+        }
     }
     
     func clearTextField() {
@@ -31,16 +33,20 @@ class EnterWordController: UIViewController, UITextFieldDelegate {
     }
     
     func displayDescription() {
-        if let curWord: Word     = viewModel.getCurrentWord() {
+        if let curWord: Word = viewModel.getCurrentWord() {
             wordDescription.text = curWord.description
         }
     }
     
     func saveWord() {
-        if let curWord  = viewModel.getCurrentWord() {
+        if var curWord = viewModel.getCurrentWord() {
             curWord.text = wordText.text
             viewModel.saveWord(word: curWord)
         }
+    }
+    
+    @IBAction func viewResults(_ sender: UIButton) {
+        viewModel.postWordsToApi()
     }
     
     override func viewDidLoad() {
@@ -48,6 +54,7 @@ class EnterWordController: UIViewController, UITextFieldDelegate {
         self.wordText.delegate = self
         self.wordText.clearsOnInsertion = true
         self.wordText.clearsOnBeginEditing = true
+        resultsButton.isHidden = true
     }
 
     override func didReceiveMemoryWarning() {

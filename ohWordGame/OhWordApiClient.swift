@@ -41,7 +41,25 @@ class OhWordApiClient {
         }
     }
     
-    func postGameWord(word_id: String, game_id: String, text: String,_ completion: @escaping (DefaultDataResponse?) -> Void) {
+//    func postGameWord(word_id: String, game_id: String, text: String,_ completion: @escaping (Data?) -> Void) {
+//        let params: Parameters = [
+//            "game_word[word_id]" : word_id,
+//            "game_word[game_id]" : game_id,
+//            "game_word[text]" : text
+//        ]
+//        let headers: HTTPHeaders = ["Authorization": "Token badee2f295c0d9b340d21ced7a21ef85"]
+//        
+//        Alamofire.request("http://api.ohwordapp.com/game_words", method: .post, parameters: params, headers: headers).response { response in
+//            if let error = response.error {
+//                print("Error getting words: \(error)")
+//                completion(response.data)
+//                return
+//            }
+//            completion(response.data)
+//        }
+//    }
+    
+    func postGameWord(word_id: Int, game_id: String, text: String) {
         let params: Parameters = [
             "game_word[word_id]" : word_id,
             "game_word[game_id]" : game_id,
@@ -49,17 +67,16 @@ class OhWordApiClient {
         ]
         let headers: HTTPHeaders = ["Authorization": "Token badee2f295c0d9b340d21ced7a21ef85"]
         
-        Alamofire.request("http://api.ohwordapp.com/game_words", parameters: params, headers: headers).response { response in
+        Alamofire.request("http://api.ohwordapp.com/game_words", method: .post, parameters: params, headers: headers).response { response in
             if let error = response.error {
                 print("Error getting words: \(error)")
-                completion(response)
                 return
             }
-            completion(response)
         }
     }
     
-    func postNewGame(_ completion: @escaping (DefaultDataResponse?) -> Void, song_id: String, user_id: String) {
+    
+    func postNewGame( song_id: String, user_id: String, _ completion: @escaping (Data?) -> Void) {
         let params: Parameters = [
             "game[song_id]" : song_id,
             "game[user_id]" : user_id
@@ -67,13 +84,13 @@ class OhWordApiClient {
         
         let headers: HTTPHeaders = ["Authorization": "Token badee2f295c0d9b340d21ced7a21ef85"]
         
-        Alamofire.request("http://localhost:3000/games", method: .post, parameters: params, headers: headers).response { response in
+        Alamofire.request("http://api.ohwordapp.com/games", method: .post, parameters: params, headers: headers).response { response in
             if let error = response.error {
                 print("Error Creating: \(error)")
-                completion(response)
+                completion(response.data)
                 return
             }
-            completion(response)
+            completion(response.data)
         }
     }
 

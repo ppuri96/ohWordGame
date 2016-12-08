@@ -27,5 +27,13 @@ class EnterWordsViewModel {
         words[curWordIndex] = word
         curWordIndex = curWordIndex + 1
     }
-
+    
+    func postWordsToApi() {
+        for word in words {
+            if let text = word.text {
+                client.postGameWord(word_id: word.id, game_id: "1", text: text)
+            }
+        }
+    }
+    
 }

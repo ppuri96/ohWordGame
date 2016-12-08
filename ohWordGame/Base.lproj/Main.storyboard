@@ -175,11 +175,20 @@
                                     <action selector="nextWord:" destination="KGK-Nh-CS3" eventType="touchUpInside" id="dKP-ax-Oew"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hbF-qG-jcn">
+                                <rect key="frame" x="135" y="107" width="105" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="VIEW RESULTS"/>
+                                <connections>
+                                    <action selector="viewResults:" destination="KGK-Nh-CS3" eventType="touchUpInside" id="YMc-RZ-MDD"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="nextButton" destination="iyF-E9-0yt" id="DRX-wq-swN"/>
+                        <outlet property="resultsButton" destination="hbF-qG-jcn" id="wnt-ti-Qlr"/>
                         <outlet property="wordDescription" destination="veM-a7-whe" id="cAV-H7-UWw"/>
                         <outlet property="wordText" destination="FIq-5d-URq" id="av7-al-vZz"/>
                     </connections>
