@@ -14,14 +14,12 @@ struct Song {
     var title: String
     var artist: String
     var lyrics: String
-    var url: String
     
-    init(id: Int, title: String, artist: String, lyrics: String, url: String) {
+    init(id: Int, title: String, artist: String, lyrics: String) {
         self.id = id
         self.title = title
         self.artist = artist
         self.lyrics = lyrics
-        self.url = url
     }
     
 }

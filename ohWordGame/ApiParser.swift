@@ -54,10 +54,9 @@ class ApiParser {
         let title = songResponse.1["title"]
         let artist = songResponse.1["artist"]
         let lyrics = songResponse.1["lyrics"]
-        let url = songResponse.1["url"]
         
         let song: Song = Song(id: id.int!, title: title.string!, artist: artist.string!,
-                              lyrics: lyrics.string!, url: url.string!)
+                              lyrics: lyrics.string!)
         return song
     }
     
