@@ -27,7 +27,7 @@ class OhWordApiClient {
         JSON data object to be handled by parser
     */
 
-    func getWordsForSong(_ completion: @escaping (Data?) -> Void, song_id: String) {
+    func getWordsForSong(song_id: String, completion: @escaping (Data?) -> Void) {
         let params: Parameters = ["word[song_id]" : song_id]
         let headers: HTTPHeaders = ["Authorization": "Token badee2f295c0d9b340d21ced7a21ef85"]
         
@@ -41,7 +41,7 @@ class OhWordApiClient {
         }
     }
     
-    func postGameWord(_ completion: @escaping (DefaultDataResponse?) -> Void, word_id: String, game_id: String, text: String) {
+    func postGameWord(word_id: String, game_id: String, text: String,_ completion: @escaping (DefaultDataResponse?) -> Void) {
         let params: Parameters = [
             "game_word[word_id]" : word_id,
             "game_word[game_id]" : game_id,

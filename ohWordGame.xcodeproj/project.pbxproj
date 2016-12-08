@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2482DC611DF7BF0A0044DE34 /* ApiParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2482DC601DF7BF0A0044DE34 /* ApiParser.swift */; };
 		384820B21DF7BB6A00284B03 /* EnterWordsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384820B11DF7BB6A00284B03 /* EnterWordsViewModel.swift */; };
+		385C70AA1DF9087100BF404C /* SelectSongViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385C70A91DF9087100BF404C /* SelectSongViewModel.swift */; };
 		3870ECFA1DF3E9C5000A239A /* OhWordApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3870ECF91DF3E9C5000A239A /* OhWordApiClient.swift */; };
 		3870ED161DF3F53E000A239A /* SelectSongController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3870ED151DF3F53E000A239A /* SelectSongController.swift */; };
 		387E9C1F1DF53E6C00B7117A /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387E9C1E1DF53E6C00B7117A /* Word.swift */; };
@@ -47,6 +48,7 @@
 		2482DC601DF7BF0A0044DE34 /* ApiParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiParser.swift; sourceTree = "<group>"; };
 		2DBD3915D03E73962202D9A2 /* Pods_ohWordGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ohWordGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		384820B11DF7BB6A00284B03 /* EnterWordsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterWordsViewModel.swift; sourceTree = "<group>"; };
+		385C70A91DF9087100BF404C /* SelectSongViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectSongViewModel.swift; sourceTree = "<group>"; };
 		3870ECF91DF3E9C5000A239A /* OhWordApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OhWordApiClient.swift; sourceTree = "<group>"; };
 		3870ED151DF3F53E000A239A /* SelectSongController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectSongController.swift; sourceTree = "<group>"; };
 		3870ED171DF4BDB7000A239A /* APITEST.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = APITEST.playground; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 			children = (
 				387E9C1E1DF53E6C00B7117A /* Word.swift */,
 				384820B11DF7BB6A00284B03 /* EnterWordsViewModel.swift */,
+				385C70A91DF9087100BF404C /* SelectSongViewModel.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -495,6 +498,7 @@
 				38CD19D81DF3740700257E4D /* ViewController.swift in Sources */,
 				384820B21DF7BB6A00284B03 /* EnterWordsViewModel.swift in Sources */,
 				387E9C211DF540A100B7117A /* EnterWordController.swift in Sources */,
+				385C70AA1DF9087100BF404C /* SelectSongViewModel.swift in Sources */,
 				387E9C1F1DF53E6C00B7117A /* Word.swift in Sources */,
 				38CD19D61DF3740700257E4D /* AppDelegate.swift in Sources */,
 				3870ECFA1DF3E9C5000A239A /* OhWordApiClient.swift in Sources */,

@@ -8,23 +8,23 @@
 
 import UIKit
 
-class EnterWordController: UIViewController {
+class EnterWordController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var wordDescription: UILabel!
-    @IBOutlet weak var wordText: UITextField! 
+    @IBOutlet weak var wordText: UITextField!
     
-    var words     = [Word]()
     let viewModel = EnterWordsViewModel()
+    
+    @IBAction func nextWord(_ sender: UIButton) {
+//        currentWord.text = wordText.text
+        self.wordDescription.text = self.viewModel.words[0].description
+        
+
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-        viewModel.loadWordsFromApi{ data in
-            self.words = data
-            print(self.words)
-            self.wordDescription.text = self.words[0].description
-        }
+        self.wordText.delegate = self
     }
 
     override func didReceiveMemoryWarning() {
@@ -32,15 +32,12 @@ class EnterWordController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        wordText.resignFirstResponder()
+        
+        return true
     }
-    */
+    
+    
 
 }
