@@ -10,6 +10,8 @@ import UIKit
 
 class ResultsViewController: UIViewController {
     
+    @IBOutlet weak var resultText: UITextView!
+    
     let viewModel: ResultsViewModel = ResultsViewModel()
     
     override func viewDidLoad() {

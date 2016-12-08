@@ -74,6 +74,9 @@ class EnterWordController: UIViewController, UITextFieldDelegate {
             viewModel.loadGameWordsFromApi(game_id: 1, completion: { data in
                 resultsViewController.viewModel.gameWords = data
             })
+            viewModel.getSongFromApi(song_id: "1", completion: { data in
+                resultsViewController.viewModel.song = data
+            })
         }
     }
     

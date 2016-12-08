@@ -37,9 +37,17 @@ class EnterWordsViewModel {
     }
     
     func loadGameWordsFromApi(game_id: Int, completion: @escaping (([GameWord]) -> Void)) {
-        client.getGameWordsForResults(game_id: game_id, completion: { [unowned self] response in
-            if let gameWords = parser.gameWordsFromApi(response: response) {
+        self.client.getGameWordsForResults(game_id: game_id, completion: { [unowned self] response in
+            if let gameWords = self.parser.gameWordsFromApi(response: response) {
                 completion(gameWords)
+            }
+        })
+    }
+    
+    func getSongFromApi(song_id: String, completion: @escaping (Song) -> Void) {
+        self.client.getSongFromApi(song_id: song_id, completion: { [unowned self] response in
+            if let song = self.parser.parseSongData(response: response) {
+                completion(song)
             }
         })
     }
