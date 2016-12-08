@@ -10,8 +10,7 @@ import UIKit
 
 class SelectSongController: UIViewController {
     
-    
-    
+    let viewModel = SelectSongViewModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,15 +23,14 @@ class SelectSongController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        if segue.identifier == "showEnterView" {
+            let enterWordController:EnterWordController = segue.destination as! EnterWordController
+            viewModel.loadWordsFromApi(song_id: "1", completion: { data in
+                //populate the viewModel with the words from the API
+                enterWordController.viewModel.words = data
+            })
+        }
     }
-    */
-
+    
 }
