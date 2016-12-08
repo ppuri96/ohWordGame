@@ -37,10 +37,10 @@ class ApiParser {
             let game_id = gameWord.1["game_id"]
             let word_id = gameWord.1["word_id"]
             let text    = gameWord.1["text"]
-            let url     = gameWord.1["url"]
+            
 
             let tempGameWord: GameWord = GameWord(index: index.int!, id: id.int!, game_id: game_id.int!, word_id: word_id.int!,
-                                                  text: text.string!, url: url.string!)
+                                                  text: text.string!)
             gameWords.append(tempGameWord)
         }
         return gameWords
