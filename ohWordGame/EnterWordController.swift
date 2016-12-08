@@ -20,13 +20,11 @@ class EnterWordController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        viewModel.loadWordsFromApi({ [unowned self] response in
-            DispatchQueue.main.async {
-                self.words = response
-            }
-        })
-        self.words = viewModel.words
-        wordDescription.text = words[0].description
+        viewModel.loadWordsFromApi{ data in
+            self.words = data
+            print(self.words)
+            self.wordDescription.text = self.words[0].description
+        }
     }
 
     override func didReceiveMemoryWarning() {

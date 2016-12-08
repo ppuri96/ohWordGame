@@ -87,31 +87,29 @@ class OhWordApiClient {
 
 class EnterWordsViewModel {
     
-    var words = [Word]()
+    //var words = [Word]()
     
     let client = OhWordApiClient()
     let parser = ApiParser()
     
-    func loadWordsFromApi(_ completion: @escaping ([Word]) -> Void) {
+    func loadWordsFromApi(completion: @escaping (([Word]) -> Void)) {
         client.getWordsForSong({ [unowned self] response in
             if let allWords = self.parser.wordsFromApiResponse(response: response!) {
-                self.words = allWords
-                completion(self.words)
+                //self.words = allWords
 //                print("test2:\(self.words)")
+                completion(allWords)
             }
-            completion(self.words)
-            return
+            
         }, song_id: "1")
 //        print("test3:\(self.words)")
     }
 }
 
 let testClass = EnterWordsViewModel()
-testClass.loadWordsFromApi( { [unowned self] words in
-    if
-    
-})
-print(testClass.words)
+testClass.loadWordsFromApi() { data in
+    print(data)
+}
+
 
 
 //let params: Parameters = ["word[song_id]" : 1]
