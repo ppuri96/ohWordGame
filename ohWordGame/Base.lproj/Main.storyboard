@@ -176,11 +176,12 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hbF-qG-jcn">
-                                <rect key="frame" x="135" y="107" width="105" height="30"/>
+                                <rect key="frame" x="135" y="107" width="105" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="VIEW RESULTS"/>
                                 <connections>
                                     <action selector="viewResults:" destination="KGK-Nh-CS3" eventType="touchUpInside" id="YMc-RZ-MDD"/>
+                                    <segue destination="nqs-vD-GMT" kind="show" identifier="resultSegue" id="uwS-qr-HeZ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -196,6 +197,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kw5-eg-pJF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1813.5999999999999" y="138.98050974512745"/>
+        </scene>
+        <!--Results View Controller-->
+        <scene sceneID="f09-5f-m0R">
+            <objects>
+                <viewController id="nqs-vD-GMT" customClass="ResultsViewController" customModule="ohWordGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="az8-4P-O8z"/>
+                        <viewControllerLayoutGuide type="bottom" id="L4p-ij-EYt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4GH-Rs-DgN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e0B-qZ-lBU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2710" y="126"/>
         </scene>
     </scenes>
     <resources>
