@@ -41,7 +41,7 @@ class OhWordApiClient {
         }
     }
     
-    func getGameWordsForResults(game_id: String, completion: @escaping (Data?) -> Void) {
+    func getGameWordsForResults(game_id: Int, completion: @escaping (Data?) -> Void) {
         let params: Parameters = ["game_word[game_id]" : game_id]
         let headers: HTTPHeaders = ["Authorization": "Token badee2f295c0d9b340d21ced7a21ef85"]
         

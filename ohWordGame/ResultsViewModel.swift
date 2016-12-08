@@ -13,5 +13,8 @@ class ResultsViewModel {
     let client = OhWordApiClient()
     let parser = ApiParser()
     
+    var gameWords = [GameWord]()
+    
+    
     
 }
