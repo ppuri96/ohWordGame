@@ -127,8 +127,8 @@
 			isa = PBXGroup;
 			children = (
 				387E9C1E1DF53E6C00B7117A /* Word.swift */,
-				384820B11DF7BB6A00284B03 /* EnterWordsViewModel.swift */,
 				385C70A91DF9087100BF404C /* SelectSongViewModel.swift */,
+				384820B11DF7BB6A00284B03 /* EnterWordsViewModel.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";

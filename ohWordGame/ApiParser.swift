@@ -26,4 +26,9 @@ class ApiParser {
         return words
     }
     
+    func postGameWordResponse(response: Data?) -> String {
+        let swiftyReturn = JSON(data: response!)
+        return swiftyReturn.description
+    }
+    
 }
