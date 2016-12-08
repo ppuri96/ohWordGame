@@ -37,10 +37,10 @@ class ApiParser {
             let game_id = gameWord.1["game_id"]
             let word_id = gameWord.1["word_id"]
             let text    = gameWord.1["text"]
-            let url     = gameWord.1["url"]
+            
 
             let tempGameWord: GameWord = GameWord(index: index.int!, id: id.int!, game_id: game_id.int!, word_id: word_id.int!,
-                                                  text: text.string!, url: url.string!)
+                                                  text: text.string!)
             gameWords.append(tempGameWord)
         }
         return gameWords
@@ -54,10 +54,9 @@ class ApiParser {
         let title = songResponse.1["title"]
         let artist = songResponse.1["artist"]
         let lyrics = songResponse.1["lyrics"]
-        let url = songResponse.1["url"]
         
         let song: Song = Song(id: id.int!, title: title.string!, artist: artist.string!,
-                              lyrics: lyrics.string!, url: url.string!)
+                              lyrics: lyrics.string!)
         return song
     }
     

@@ -15,22 +15,36 @@ class ResultsViewModel {
     
     var song: Song? = nil
     var gameWords = [GameWord]()
-    var lyricsArry: [String]? = [String]?()
+    var lyricsArr: [String] = [String]()
+    
+    func getNewSongLyrics() -> String {
+        createLyricsArray()
+        populateNewSongLyrics()
+        return concatLyricArray()
+    }
     
     
+    //Helper functions
     func createLyricsArray() {
         if let gameSong = song {
-            lyricsArry = gameSong.lyrics.components(separatedBy: " ")
+            lyricsArr = gameSong.lyrics.components(separatedBy: " ")
         }
     }
     
     func populateNewSongLyrics() {
-        createLyricsArray()
         for gameWord in gameWords {
-            var curIndex = gameWord.index
-            var curText = gameWord.text
+            let curIndex = gameWord.index
+            let curText = gameWord.text
             self.lyricsArr[curIndex] = curText
         }
+    }
+    
+    func concatLyricArray() -> String {
+        var retString = ""
+        for word in lyricsArr {
+            retString = retString + word
+        }
+        return retString
     }
     
 }

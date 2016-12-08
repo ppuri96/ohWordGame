@@ -12,11 +12,19 @@ class ResultsViewController: UIViewController {
     
     @IBOutlet weak var resultText: UITextView!
     
+    @IBAction func displaySong(sender: UIButton) {
+        getNewSongLyrics()
+    }
+    
     let viewModel: ResultsViewModel = ResultsViewModel()
+    
+    func getNewSongLyrics() {
+        let newSongLyrics = viewModel.getNewSongLyrics()
+        resultText.text = newSongLyrics
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
 
