@@ -3,6 +3,7 @@
 import UIKit
 import Alamofire
 import SwiftyJSON
+import Foundation
 
 import PlaygroundSupport
 PlaygroundPage.current.needsIndefiniteExecution = true
@@ -62,7 +63,7 @@ class ApiParser {
             let tempWord: Word = Word(id: id.int!, index: index.int!, description: description.string!)
             words.append(tempWord)
         }
-        print(words)
+//        print(words)
         return words
     }
     
@@ -132,8 +133,10 @@ testClass.loadWordsFromApi() { data in
 //    }
 //}
 
+var lyrics: String = "Straight outta _LOCATION_, crazy _OCCUPATION_ named _PERSON_IN_ROOM_ \\n  From the _NOUN_ called _PLURAL_NOUN_ With _PLURAL_NOUN_ \\n  When I'm called off, I got a sawed off \\n  _VERB_ the _NOUN_, and _PLURAL_NOUN_ are hauled off \\n  You too, boy, if ya _VERB_ with me \\n The _PLURAL_NOUN_ are gonna hafta come and get me"
 
-
+let lyricsArray = lyrics.components(separatedBy: " ")
+print(lyricsArray)
 
 
 

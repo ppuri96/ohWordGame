@@ -68,6 +68,17 @@ class EnterWordController: UIViewController, UITextFieldDelegate {
         return true
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "resultSegue" {
+            let resultsViewController:ResultsViewController = segue.destination as! ResultsViewController
+            viewModel.loadGameWordsFromApi(game_id: 1, completion: { data in
+                resultsViewController.viewModel.gameWords = data
+            })
+            viewModel.getSongFromApi(song_id: "1", completion: { data in
+                resultsViewController.viewModel.song = data
+            })
+        }
+    }
     
 
 }

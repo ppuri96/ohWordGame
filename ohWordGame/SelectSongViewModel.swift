@@ -14,7 +14,7 @@ class SelectSongViewModel {
     let parser = ApiParser()
     
     func loadWordsFromApi(song_id: String, completion: @escaping (([Word]) -> Void)) {
-        client.getWordsForSong(song_id: song_id, completion: { [unowned self] response in
+        self.client.getWordsForSong(song_id: song_id, completion: { [unowned self] response in
             if let allWords = self.parser.wordsFromApiResponse(response: response!) {
                 completion(allWords)
             }
