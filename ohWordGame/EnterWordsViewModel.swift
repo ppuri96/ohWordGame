@@ -10,13 +10,22 @@ import Foundation
 
 class EnterWordsViewModel {
     
-    var words = [Word]()
-    
     let client = OhWordApiClient()
     let parser = ApiParser()
     
+    var words: [Word]     = [Word]()
+    var curWordIndex: Int = 0
     
+    func getCurrentWord() -> Word? {
+        if curWordIndex > words.count - 1 {
+            return nil
+        }
+        return words[curWordIndex]
+    }
     
-    
+    func saveWord(word: Word) {
+        words[curWordIndex] = word
+        curWordIndex = curWordIndex + 1
+    }
 
 }
