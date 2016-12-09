@@ -125,4 +125,5 @@ test.getSongFromApi(song_id: "1", completion: { data in
     print(data)
 })
 
+Float(1)/18
 

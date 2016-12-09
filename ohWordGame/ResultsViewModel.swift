@@ -17,6 +17,15 @@ class ResultsViewModel {
     var gameWords = [GameWord]()
     var lyricsArr: [String] = [String]()
     var finalLyrics: String?
+    var accentLang: String = "en-US"
+    
+    func toggleAccent() {
+        if accentLang == "en-US" {
+            self.accentLang = "en-GB"
+        } else {
+            self.accentLang = "en-US"
+        }
+    }
     
     func getNewSongLyrics() {
         createLyricsArray()

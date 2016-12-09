@@ -14,6 +14,7 @@ class EnterWordController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var wordText: UITextField!
     @IBOutlet weak var nextButton: UIButton!
     @IBOutlet weak var resultsButton: UIButton!
+    @IBOutlet weak var progressBar: UIProgressView!
     
     let viewModel = EnterWordsViewModel()
     
@@ -33,6 +34,9 @@ class EnterWordController: UIViewController, UITextFieldDelegate {
     }
     
     func displayDescription() {
+        DispatchQueue.main.async {
+            self.progressBar.setProgress(Float(self.viewModel.curWordIndex) / Float(self.viewModel.words.count), animated: true)
+        }
         if let curWord: Word = viewModel.getCurrentWord() {
             wordDescription.text = curWord.description
         }
@@ -55,6 +59,7 @@ class EnterWordController: UIViewController, UITextFieldDelegate {
         self.wordText.clearsOnInsertion = true
         self.wordText.clearsOnBeginEditing = true
         resultsButton.isHidden = true
+        progressBar.setProgress(0, animated: true)
     }
 
     override func didReceiveMemoryWarning() {

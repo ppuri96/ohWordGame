@@ -29,7 +29,7 @@ class OhWordApiClient {
 
     func getWordsForSong(song_id: String, completion: @escaping (Data?) -> Void) {
         let params: Parameters = ["word[song_id]" : song_id]
-        let headers: HTTPHeaders = ["Authorization": "Token badee2f295c0d9b340d21ced7a21ef85"]
+        let headers: HTTPHeaders = ["Authorization": "Token d73212b2a5eaf3b007bd6991c828a057"]
         
         Alamofire.request("http://api.ohwordapp.com/wordsforsong", parameters: params, headers: headers).response { response in
             if let error = response.error {
@@ -43,7 +43,7 @@ class OhWordApiClient {
     
     func getGameWordsForResults(game_id: Int, completion: @escaping (Data?) -> Void) {
         let params: Parameters = ["game_word[game_id]" : game_id]
-        let headers: HTTPHeaders = ["Authorization": "Token badee2f295c0d9b340d21ced7a21ef85"]
+        let headers: HTTPHeaders = ["Authorization": "Token d73212b2a5eaf3b007bd6991c828a057"]
         
         Alamofire.request("http://api.ohwordapp.com/gamewordsforgame", parameters: params, headers: headers).response { response in
             if let error = response.error {
@@ -57,7 +57,7 @@ class OhWordApiClient {
     }
     
     func getSongFromApi(song_id: String, completion: @escaping (Data?) -> Void) {
-        let headers: HTTPHeaders = ["Authorization": "Token badee2f295c0d9b340d21ced7a21ef85"]
+        let headers: HTTPHeaders = ["Authorization": "Token d73212b2a5eaf3b007bd6991c828a057"]
         
         Alamofire.request("http://api.ohwordapp.com/songs/" + song_id, headers: headers).response { response in
             if let error = response.error {
@@ -75,7 +75,7 @@ class OhWordApiClient {
 //            "game_word[game_id]" : game_id,
 //            "game_word[text]" : text
 //        ]
-//        let headers: HTTPHeaders = ["Authorization": "Token badee2f295c0d9b340d21ced7a21ef85"]
+//        let headers: HTTPHeaders = ["Authorization": "Token d73212b2a5eaf3b007bd6991c828a057"]
 //        
 //        Alamofire.request("http://api.ohwordapp.com/game_words", method: .post, parameters: params, headers: headers).response { response in
 //            if let error = response.error {
@@ -93,7 +93,7 @@ class OhWordApiClient {
             "game_word[game_id]" : game_id,
             "game_word[text]" : text
         ]
-        let headers: HTTPHeaders = ["Authorization": "Token badee2f295c0d9b340d21ced7a21ef85"]
+        let headers: HTTPHeaders = ["Authorization": "Token d73212b2a5eaf3b007bd6991c828a057"]
         
         Alamofire.request("http://api.ohwordapp.com/game_words", method: .post, parameters: params, headers: headers).response { response in
             if let error = response.error {
@@ -110,7 +110,7 @@ class OhWordApiClient {
             "game[user_id]" : user_id
         ]
         
-        let headers: HTTPHeaders = ["Authorization": "Token badee2f295c0d9b340d21ced7a21ef85"]
+        let headers: HTTPHeaders = ["Authorization": "Token d73212b2a5eaf3b007bd6991c828a057"]
         
         Alamofire.request("http://api.ohwordapp.com/games", method: .post, parameters: params, headers: headers).response { response in
             if let error = response.error {
