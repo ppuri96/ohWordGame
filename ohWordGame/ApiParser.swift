@@ -49,11 +49,12 @@ class ApiParser {
     func parseSongData(response: Data?) -> Song? {
         let swiftyReturn = JSON(data: response!)
         
-        var songResponse = swiftyReturn.first!
-        let id = songResponse.1["id"]
-        let title = songResponse.1["title"]
-        let artist = songResponse.1["artist"]
-        let lyrics = songResponse.1["lyrics"]
+        var songResponse = swiftyReturn
+        
+        let id = songResponse["id"]
+        let title = songResponse["title"]
+        let artist = songResponse["artist"]
+        let lyrics = songResponse["lyrics"]
         
         let song: Song = Song(id: id.int!, title: title.string!, artist: artist.string!,
                               lyrics: lyrics.string!)

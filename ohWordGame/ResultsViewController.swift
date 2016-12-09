@@ -10,17 +10,21 @@ import UIKit
 
 class ResultsViewController: UIViewController {
     
+    let viewModel: ResultsViewModel = ResultsViewModel()
+    
     @IBOutlet weak var resultText: UITextView!
     
     @IBAction func displaySong(sender: UIButton) {
         getNewSongLyrics()
     }
     
-    let viewModel: ResultsViewModel = ResultsViewModel()
-    
     func getNewSongLyrics() {
-        let newSongLyrics = viewModel.getNewSongLyrics()
-        resultText.text = newSongLyrics
+        viewModel.getNewSongLyrics()
+        if let newSongLyrics = viewModel.finalLyrics {
+            resultText.text = newSongLyrics
+            print(newSongLyrics)
+        }
+        
     }
     
     override func viewDidLoad() {

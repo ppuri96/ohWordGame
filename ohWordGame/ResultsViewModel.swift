@@ -16,13 +16,13 @@ class ResultsViewModel {
     var song: Song? = nil
     var gameWords = [GameWord]()
     var lyricsArr: [String] = [String]()
+    var finalLyrics: String?
     
-    func getNewSongLyrics() -> String {
+    func getNewSongLyrics() {
         createLyricsArray()
         populateNewSongLyrics()
-        return concatLyricArray()
+        concatLyricArray()
     }
-    
     
     //Helper functions
     func createLyricsArray() {
@@ -39,12 +39,12 @@ class ResultsViewModel {
         }
     }
     
-    func concatLyricArray() -> String {
+    func concatLyricArray(){
         var retString = ""
         for word in lyricsArr {
-            retString = retString + word
+            retString = retString + " " + word
         }
-        return retString
+        self.finalLyrics = retString
     }
     
 }
