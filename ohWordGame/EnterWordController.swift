@@ -17,6 +17,7 @@ class EnterWordController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var progressBar: UIProgressView!
     
     let viewModel = EnterWordsViewModel()
+    var game_id: Int = 13
     
     @IBAction func nextWord(_ sender: UIButton) {
         if viewModel.curWordIndex < viewModel.words.count {
@@ -26,6 +27,7 @@ class EnterWordController: UIViewController, UITextFieldDelegate {
         }
         if viewModel.curWordIndex == viewModel.words.count {
             resultsButton.isHidden = false
+            viewModel.postWordsToApi(gameId: self.game_id)
         }
     }
     
@@ -50,7 +52,7 @@ class EnterWordController: UIViewController, UITextFieldDelegate {
     }
     
     @IBAction func viewResults(_ sender: UIButton) {
-        viewModel.postWordsToApi()
+        
     }
     
     override func viewDidLoad() {
@@ -76,7 +78,9 @@ class EnterWordController: UIViewController, UITextFieldDelegate {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "resultSegue" {
             let resultsViewController:ResultsViewController = segue.destination as! ResultsViewController
-            viewModel.loadGameWordsFromApi(game_id: 1, completion: { data in
+            
+            viewModel.loadGameWordsFromApi(game_id: self.game_id, completion: { data in
+                print("the game loading from api is: \(self.game_id)")
                 resultsViewController.viewModel.gameWords = data
             })
             viewModel.getSongFromApi(song_id: "1", completion: { data in

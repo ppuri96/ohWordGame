@@ -43,6 +43,7 @@ class ApiParser {
                                                   text: text.string!)
             gameWords.append(tempGameWord)
         }
+        print("these are the parsed game words: \(gameWords)")
         return gameWords
     }
     
@@ -59,6 +60,17 @@ class ApiParser {
         let song: Song = Song(id: id.int!, title: title.string!, artist: artist.string!,
                               lyrics: lyrics.string!)
         return song
+    }
+    
+    func parseNewGameData(response: Data?) -> Game? {
+        let swiftyReturn = JSON(data: response!)
+        
+        let id = swiftyReturn["id"]
+        let user_id = swiftyReturn["user_id"]
+        let song_id = swiftyReturn["song_id"]
+        
+        let game: Game = Game(id: id.int!, user_id: user_id.int!, song_id: song_id.int!)
+        return game
     }
     
     

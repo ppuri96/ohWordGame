@@ -8,9 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var rapNameField: UITextField!
+    @IBOutlet weak var usernmae: UITextField!
+    @IBOutlet weak var password: UITextField!
     
     @IBAction func startGame(_sender: UIButton) {
         //move to next screen? anything else to do here?
@@ -19,6 +21,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.password.delegate = self 
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -27,6 +30,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        password.resignFirstResponder()
+        return true
+    }
 
 }
 

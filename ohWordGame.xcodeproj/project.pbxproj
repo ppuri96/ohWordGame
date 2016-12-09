@@ -12,6 +12,7 @@
 		3834412F1DF963E900D47B70 /* ResultsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3834412E1DF963E900D47B70 /* ResultsViewModel.swift */; };
 		383441311DF9DC5400D47B70 /* GameWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383441301DF9DC5400D47B70 /* GameWord.swift */; };
 		383441331DF9E78D00D47B70 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383441321DF9E78D00D47B70 /* Song.swift */; };
+		383441351DFAA9B800D47B70 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383441341DFAA9B800D47B70 /* Game.swift */; };
 		384820B21DF7BB6A00284B03 /* EnterWordsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384820B11DF7BB6A00284B03 /* EnterWordsViewModel.swift */; };
 		385C70AA1DF9087100BF404C /* SelectSongViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385C70A91DF9087100BF404C /* SelectSongViewModel.swift */; };
 		3870ECFA1DF3E9C5000A239A /* OhWordApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3870ECF91DF3E9C5000A239A /* OhWordApiClient.swift */; };
@@ -55,6 +56,7 @@
 		3834412E1DF963E900D47B70 /* ResultsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewModel.swift; sourceTree = "<group>"; };
 		383441301DF9DC5400D47B70 /* GameWord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameWord.swift; sourceTree = "<group>"; };
 		383441321DF9E78D00D47B70 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		383441341DFAA9B800D47B70 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		384820B11DF7BB6A00284B03 /* EnterWordsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterWordsViewModel.swift; sourceTree = "<group>"; };
 		385C70A91DF9087100BF404C /* SelectSongViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectSongViewModel.swift; sourceTree = "<group>"; };
 		3870ECF91DF3E9C5000A239A /* OhWordApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OhWordApiClient.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 				385C70A91DF9087100BF404C /* SelectSongViewModel.swift */,
 				384820B11DF7BB6A00284B03 /* EnterWordsViewModel.swift */,
 				3834412E1DF963E900D47B70 /* ResultsViewModel.swift */,
+				383441341DFAA9B800D47B70 /* Game.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -301,15 +304,18 @@
 				TargetAttributes = {
 					38CD19D11DF3740700257E4D = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 3JPXEAXYV9;
 						ProvisioningStyle = Automatic;
 					};
 					38CD19E51DF3740700257E4D = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 3JPXEAXYV9;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 38CD19D11DF3740700257E4D;
 					};
 					38CD19F01DF3740800257E4D = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 3JPXEAXYV9;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 38CD19D11DF3740700257E4D;
 					};
@@ -514,6 +520,7 @@
 				385C70AA1DF9087100BF404C /* SelectSongViewModel.swift in Sources */,
 				383441311DF9DC5400D47B70 /* GameWord.swift in Sources */,
 				387E9C1F1DF53E6C00B7117A /* Word.swift in Sources */,
+				383441351DFAA9B800D47B70 /* Game.swift in Sources */,
 				38CD19D61DF3740700257E4D /* AppDelegate.swift in Sources */,
 				3834412F1DF963E900D47B70 /* ResultsViewModel.swift in Sources */,
 				383441331DF9E78D00D47B70 /* Song.swift in Sources */,
@@ -594,6 +601,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -644,6 +652,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -671,6 +680,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3JPXEAXYV9;
 				INFOPLIST_FILE = ohWordGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = F16.ohWordGame;
@@ -685,6 +695,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3JPXEAXYV9;
 				INFOPLIST_FILE = ohWordGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = F16.ohWordGame;
@@ -699,6 +710,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3JPXEAXYV9;
 				INFOPLIST_FILE = ohWordGameTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = F16.ohWordGameTests;
@@ -714,6 +726,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3JPXEAXYV9;
 				INFOPLIST_FILE = ohWordGameTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = F16.ohWordGameTests;
@@ -728,6 +741,7 @@
 			baseConfigurationReference = 567C117B44F9BE9F4163B6A3 /* Pods-ohWordGameUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3JPXEAXYV9;
 				INFOPLIST_FILE = ohWordGameUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = F16.ohWordGameUITests;
@@ -742,6 +756,7 @@
 			baseConfigurationReference = 3FD8B5AA0BDB67BDC874B674 /* Pods-ohWordGameUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3JPXEAXYV9;
 				INFOPLIST_FILE = ohWordGameUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = F16.ohWordGameUITests;

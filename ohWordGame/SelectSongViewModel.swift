@@ -21,4 +21,12 @@ class SelectSongViewModel {
         })
     }
     
+    func postNewGame(song_id: String, user_id: String, completion: @escaping ((Game) -> Void)) {
+        self.client.postNewGame(song_id: song_id, user_id: user_id, { [unowned self] response in
+            if let game = self.parser.parseNewGameData(response: response!) {
+                completion(game)
+            }
+        })
+    }
+    
 }

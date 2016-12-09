@@ -31,6 +31,10 @@ class SelectSongController: UIViewController {
                 enterWordController.viewModel.words = data
                 enterWordController.wordDescription.text = data[0].description
             })
+            viewModel.postNewGame(song_id: "1", user_id: "1", completion: { data in
+                print("setting to: \(data.id)")
+                enterWordController.game_id = data.id
+            })
         }
     }
     

@@ -80,7 +80,9 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="password" destination="6Rc-j5-Imz" id="nhN-ne-bvL"/>
                         <outlet property="rapNameField" destination="3Ho-bV-2xX" id="2Dq-UD-05e"/>
+                        <outlet property="usernmae" destination="3Ho-bV-2xX" id="yC6-9L-fnf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

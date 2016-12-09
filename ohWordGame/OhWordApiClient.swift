@@ -87,7 +87,7 @@ class OhWordApiClient {
 //        }
 //    }
     
-    func postGameWord(word_id: Int, game_id: String, text: String) {
+    func postGameWord(word_id: Int, game_id: Int, text: String) {
         let params: Parameters = [
             "game_word[word_id]" : word_id,
             "game_word[game_id]" : game_id,
