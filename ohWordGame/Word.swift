@@ -20,9 +20,6 @@ struct Word {
         self.index = index
         self.description = description
     }
-    
-    mutating func setText(text: String) {
-        self.text = text
-    }
+
     
 }

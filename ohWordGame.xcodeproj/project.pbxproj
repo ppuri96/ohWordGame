@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24339C2E1E00A80600EDBF5A /* wordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24339C2D1E00A80600EDBF5A /* wordTests.swift */; };
+		24339C301E00BE8E00EDBF5A /* songTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24339C2F1E00BE8E00EDBF5A /* songTests.swift */; };
+		24339C321E00BF4400EDBF5A /* gameWordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24339C311E00BF4400EDBF5A /* gameWordTests.swift */; };
+		24339C341E00C03700EDBF5A /* gameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24339C331E00C03700EDBF5A /* gameTests.swift */; };
 		2482DC611DF7BF0A0044DE34 /* ApiParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2482DC601DF7BF0A0044DE34 /* ApiParser.swift */; };
 		3834412B1DF9627400D47B70 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3834412A1DF9627400D47B70 /* ResultsViewController.swift */; };
 		3834412F1DF963E900D47B70 /* ResultsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3834412E1DF963E900D47B70 /* ResultsViewModel.swift */; };
@@ -50,6 +54,10 @@
 
 /* Begin PBXFileReference section */
 		09E5AE3314C6E42561BF2A2C /* Pods-ohWordGameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ohWordGameTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ohWordGameTests/Pods-ohWordGameTests.debug.xcconfig"; sourceTree = "<group>"; };
+		24339C2D1E00A80600EDBF5A /* wordTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = wordTests.swift; sourceTree = "<group>"; };
+		24339C2F1E00BE8E00EDBF5A /* songTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = songTests.swift; sourceTree = "<group>"; };
+		24339C311E00BF4400EDBF5A /* gameWordTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gameWordTests.swift; sourceTree = "<group>"; };
+		24339C331E00C03700EDBF5A /* gameTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gameTests.swift; sourceTree = "<group>"; };
 		2482DC601DF7BF0A0044DE34 /* ApiParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiParser.swift; sourceTree = "<group>"; };
 		2DBD3915D03E73962202D9A2 /* Pods_ohWordGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ohWordGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3834412A1DF9627400D47B70 /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
@@ -190,6 +198,10 @@
 			isa = PBXGroup;
 			children = (
 				38CD19EA1DF3740800257E4D /* ohWordGameTests.swift */,
+				24339C2D1E00A80600EDBF5A /* wordTests.swift */,
+				24339C2F1E00BE8E00EDBF5A /* songTests.swift */,
+				24339C311E00BF4400EDBF5A /* gameWordTests.swift */,
+				24339C331E00C03700EDBF5A /* gameTests.swift */,
 				38CD19EC1DF3740800257E4D /* Info.plist */,
 			);
 			path = ohWordGameTests;
@@ -533,6 +545,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				38CD19EB1DF3740800257E4D /* ohWordGameTests.swift in Sources */,
+				24339C2E1E00A80600EDBF5A /* wordTests.swift in Sources */,
+				24339C341E00C03700EDBF5A /* gameTests.swift in Sources */,
+				24339C301E00BE8E00EDBF5A /* songTests.swift in Sources */,
+				24339C321E00BF4400EDBF5A /* gameWordTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
