@@ -21,7 +21,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.password.delegate = self 
+        self.password.delegate = self
+        self.password.isSecureTextEntry = true
         // Do any additional setup after loading the view, typically from a nib.
     }
 
