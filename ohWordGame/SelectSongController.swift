@@ -27,12 +27,12 @@ class SelectSongController: UIViewController {
         if segue.identifier == "showEnterView" {
             let enterWordController:EnterWordController = segue.destination as! EnterWordController
             viewModel.loadWordsFromApi(song_id: "1", completion: { data in
+                
                 //populate the viewModel with the words from the API
                 enterWordController.viewModel.words = data
                 enterWordController.wordDescription.text = data[0].description
             })
             viewModel.postNewGame(song_id: "1", user_id: "1", completion: { data in
-                print("setting to: \(data.id)")
                 enterWordController.game_id = data.id
             })
         }

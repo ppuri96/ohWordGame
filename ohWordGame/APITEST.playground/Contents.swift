@@ -123,3 +123,6 @@ test.loadGameWordsFromApi(game_id: 8, completion: { data in
     print("DATA ISSSS: \(data)")
 })
 
+
+let words = [Word]()
+words.count 
