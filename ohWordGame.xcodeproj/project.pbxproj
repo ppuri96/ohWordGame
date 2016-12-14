@@ -23,6 +23,8 @@
 		3870ED161DF3F53E000A239A /* SelectSongController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3870ED151DF3F53E000A239A /* SelectSongController.swift */; };
 		387E9C1F1DF53E6C00B7117A /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387E9C1E1DF53E6C00B7117A /* Word.swift */; };
 		387E9C211DF540A100B7117A /* EnterWordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387E9C201DF540A100B7117A /* EnterWordController.swift */; };
+		38942C431E015D7F00C08E20 /* EnterWordsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38942C421E015D7F00C08E20 /* EnterWordsViewModelTests.swift */; };
+		38942C451E01668B00C08E20 /* ResultsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38942C441E01668B00C08E20 /* ResultsViewModelTests.swift */; };
 		38CD19D61DF3740700257E4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CD19D51DF3740700257E4D /* AppDelegate.swift */; };
 		38CD19D81DF3740700257E4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CD19D71DF3740700257E4D /* ViewController.swift */; };
 		38CD19DB1DF3740700257E4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38CD19D91DF3740700257E4D /* Main.storyboard */; };
@@ -72,6 +74,8 @@
 		3870ED171DF4BDB7000A239A /* APITEST.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = APITEST.playground; sourceTree = "<group>"; };
 		387E9C1E1DF53E6C00B7117A /* Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
 		387E9C201DF540A100B7117A /* EnterWordController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterWordController.swift; sourceTree = "<group>"; };
+		38942C421E015D7F00C08E20 /* EnterWordsViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterWordsViewModelTests.swift; sourceTree = "<group>"; };
+		38942C441E01668B00C08E20 /* ResultsViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewModelTests.swift; sourceTree = "<group>"; };
 		38CD19D21DF3740700257E4D /* ohWordGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ohWordGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38CD19D51DF3740700257E4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38CD19D71DF3740700257E4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -147,11 +151,11 @@
 			children = (
 				387E9C1E1DF53E6C00B7117A /* Word.swift */,
 				383441321DF9E78D00D47B70 /* Song.swift */,
+				383441341DFAA9B800D47B70 /* Game.swift */,
 				383441301DF9DC5400D47B70 /* GameWord.swift */,
 				385C70A91DF9087100BF404C /* SelectSongViewModel.swift */,
 				384820B11DF7BB6A00284B03 /* EnterWordsViewModel.swift */,
 				3834412E1DF963E900D47B70 /* ResultsViewModel.swift */,
-				383441341DFAA9B800D47B70 /* Game.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -203,6 +207,8 @@
 				24339C311E00BF4400EDBF5A /* gameWordTests.swift */,
 				24339C331E00C03700EDBF5A /* gameTests.swift */,
 				38CD19EC1DF3740800257E4D /* Info.plist */,
+				38942C421E015D7F00C08E20 /* EnterWordsViewModelTests.swift */,
+				38942C441E01668B00C08E20 /* ResultsViewModelTests.swift */,
 			);
 			path = ohWordGameTests;
 			sourceTree = "<group>";
@@ -549,6 +555,8 @@
 				24339C341E00C03700EDBF5A /* gameTests.swift in Sources */,
 				24339C301E00BE8E00EDBF5A /* songTests.swift in Sources */,
 				24339C321E00BF4400EDBF5A /* gameWordTests.swift in Sources */,
+				38942C431E015D7F00C08E20 /* EnterWordsViewModelTests.swift in Sources */,
+				38942C451E01668B00C08E20 /* ResultsViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
